@@ -1,0 +1,15 @@
+@SCENARIO
+@width=440
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+You can play as:
+One of the Allies:  
+Britain & France; Russia; The 'Balkan Allies' (The nationalists of Serbia, Romania and Greece); or Italy.
+Or one of the Central Powers:
+Germany; Austria-Hungary; The Ottoman Empire with Bulgaria.
+Germany has the objective in this scenario of capturing her enemies' capitals - she will win decisively if she holds Paris and Moscow, and marginally if she can conquer one (as well as keeping Berlin).
+Germany is defeated marginally if she does not capture Paris or Moscow, and decisively if Berlin falls.
+Only Balkan nationalists can build the 'Patriot' unit (with better vision and mobility), the Ottomans build 'Ottoman Guards' and Austria-Hungary build 'Imperial Guards' (both inferior infantry to 'modern' riflemen).
+You have until November 1918, the real armistice date.
+Made by Will
+@end -- this line must be here!
