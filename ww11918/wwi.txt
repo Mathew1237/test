@@ -1,0 +1,7 @@
+@SCENARIO
+@width=540
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+Prominent among the war's causes were the imperialist, territorial, and economic rivalries of the great powers. The German empire in particular was determined to establish itself as the preeminent power on the Continent. The Germans were also intent on challenging the naval superiority of Britain. However, it was rampant nationalism-especially evident in the Austro-Hungarian empire-that furnished the immediate cause of hostilities. On June 28, 1914, Archduke Francis Ferdinand, heir apparent to the Austro-Hungarian throne, was assassinated at Sarajevo by a Serbian nationalist. One month later, after its humiliating demands were refused, Austria-Hungary declared war on Serbia. Other declarations of war followed quickly, and soon every major power in Europe was in the war. After revolution erupted in Germany, the armistice was signed on Nov. 11, 1918.
+@end -- this line must be here!
+
