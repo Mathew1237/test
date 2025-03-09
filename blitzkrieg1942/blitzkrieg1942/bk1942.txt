@@ -1,0 +1,18 @@
+@SCENARIO
+@width=400
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+^
+^^Blitzkrieg 1942
+Using the new the new blitzkrieg tactics to crush opposition in Poland, Scandinavia, the Low Countries, France and the Balcans within two years, Hitler found himself in total command of the European Continent. His next step: the Soviet Union. In June 1941, Hitler invaded Russia.
+^
+Meanwhile, in the Pacific, the Japanese had turned aggressive. By August 1942 they had taken control of Southeast Asia and reached as far as New Guinea on the road toward an invasion of Australia. Menaced by the American presence in the Pacific, the Japanese bombed Pearl Harbor on December 7, 1941, bringing the United States into the war. 
+^
+Here's your chance to rewrite history. The date: July 1942!
+^
+@end -- this line must be here!
+
+
+
+
+
