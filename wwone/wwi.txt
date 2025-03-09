@@ -1,0 +1,14 @@
+@SCENARIO
+@width=540
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+	The early twentieth century was a time of rapid research and
+growth. It was also a time of imperialism and militarism, nationalism
+and alliances.
+	Soon Europe was divided into two alliance systems, The Triple
+Entente (The Western Allies) and The Triple Alliance(Central Powers).
+Will you be able to win, or even survive The Great War, The War to
+End All Wars? It's up to you...
+
+
+	By Leons Petrazickis
