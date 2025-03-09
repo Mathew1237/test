@@ -1,0 +1,21 @@
+@SCENARIO
+@width=440
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+^Axis and Allies
+^
+^
+^(Axis Powers)
+^the Japanese Empire in Eastern China and the South Pacific
+^the Nazis in France and Poland
+^
+^the Neutrals
+^
+^(Allied Powers) 
+^the Americans with support troops in Brazil and Western China
+^the British Empire
+^the Soviet Empire
+^
+^
+^Units, advances, terrain, etc. have been modified
+@end -- this line must be here!
