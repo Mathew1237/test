@@ -1,0 +1,24 @@
+@SCENARIO
+@width=540
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+^^
+^Seeking war with Russia, the Swedish King, Gustav III,
+^gets a golden opportunity when the Sultan declares war on
+^Russia.
+^Forbidden by the Law to start a war, Gustav III dresses his own
+^soldiers like Russian Cossacks and lets them attack a Swedish
+^position. Thus getting the Russians look as intruders.
+^And so the war begins...
+^
+^Will Sweden conquer St. Petersburg,and thus force Russia to sign
+^a Swedish-favourable peace treaty
+^or will Russia once again defeat Sweden and invade Finland?
+^
+^Only for play: Sweden
+^^Read the Readme before playing!!!
+^
+^
+^^Made by Jonas Hasselrot (jkhasselrot@hotmail.com)
+^
+@end -- this line must be here!
