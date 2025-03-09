@@ -1,0 +1,29 @@
+@SCENARIO
+@width=50
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+^
+^" We saw the first shell from the big German railroad gun as it came toward us tumbling in 
+^the air and sounding like a train going through a tunnel. I like many others dove for any 
+^hole we could find. At the time I found it funny that I and so many men had been afraid of 
+^a noise that was harmless to us. 
+^
+^A short while later, I saw the jeeps flying the Red Cross's and bringing back the wounded. 
+^I was to learn, if one wished to survive this war, one had to learn and understand the 
+^many sounds made by both the enemy and our side.
+^
+^We were to learn some noises the hard way. As our regiment settled near Basse and as the 
+^companies were digging in, a salvo of mortar rounds landed in the B Coy area setting the 
+^Coy carrier on fire and wounding Pte. Turner, while Maj. Monk, Pte. Armstrong and CSM 
+^Fraser went to give aid to Tuner, another salvo caught them all above ground wounding Pte. 
+^Armstrong and several others in the Coy including Pte. Bougner, Tompkins and Lieut....., 
+^in this gallant effort.
+
+^Bravery in a case like this does not always pay off. It is hard not to help one of your 
+^comrades, but it is not wise to always do so as most barrages of artillery and motor fire 
+^very seldom last more than five or six minutes. "
+^
+^                                             -Allied Soldier
+^
+@end -- this line must be here!
+

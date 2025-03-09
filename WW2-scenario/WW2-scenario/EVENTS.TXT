@@ -1,0 +1,197 @@
+@BEGINEVENTS
+
+@IF
+UNITKILLED
+unit=Wehrmacht
+attacker=Soviet Union
+defender=Germans
+@THEN
+TEXT
+The German forces are supprised by the disiplinised Soviet Red Army, and struggles to move
+further in to Russia ...
+ENDTEXT
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Berlin
+attacker=ANYBODY
+defender=Germans
+@THEN
+TEXT
+Adolf Hitler's dreem of the Third Reich is beeing crushed by the Allied forces. Europe is left in
+ruins after six years of intensive battles. History will be written as Nazi-Germany agrees to
+withdraw all of their forces, and signs a peace treaty.
+ENDTEXT
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Moscow
+attacker=Germans
+defender=Soviet Union
+@THEN
+TEXT
+Adolf Hitler's dreem of a Third Reich is coming to an end. The Red Army's combat moral is
+extremly low as he enters their capitol, Moscow. His trip further to the Pascific ocean is easy but
+long.
+ENDTEXT
+@ENDIF
+
+@IF
+SCENARIOLOADED
+@THEN
+PLAYWAVEFILE
+MENUEND.WAV
+@ENDIF
+
+@IF
+CITYTAKEN
+city=London
+attacker=Germans
+defender=British
+@THEN
+TEXT
+Adolf Hitler's dreem of a Third Reich is coming to an end. The Allied Forces' combat moral is
+extremly low as he enters their capitol, London.
+ENDTEXT
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Paris
+attacker=Germans
+defender=French
+@THEN
+TEXT
+The French Army's combat moral is low as the Germans enters their capitol, Paris. They are
+supprised by The Nazi Blitzkrieg tactics.  They must quickly realise that this is a combat wich they
+can't win.
+ENDTEXT
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=64
+receiver=Germans
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Ju-87 "Stuka"
+attacker=Germans
+defender=British
+@THEN
+TEXT
+Britons Royal Airforce defends their country with extremely braveness and success
+.
+ENDTEXT
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kiev
+attacker=Germans
+defender=Soviet Union
+@THEN
+TEXT
+SS Einsatz-kommando's are deployed throughout captured Soviet territories
+to eliminate resistance and kill "undesirable" elements of the population.
+ENDTEXT
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Tiger Tank
+attacker=ANYBODY
+defender=Germans
+@THEN
+TEXT
+The Red Army scores a great victory as they destroy one of Hitler's "Secret
+Weapons".  The Führer is enraged and the Soviet people jubilant. The remains
+of the "dead giant" are brought to Red Square for the people to see and gloat.
+ENDTEXT
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Minsk
+attacker=Germans
+defender=Soviet Union
+@THEN
+TEXT
+The Germans seize Soviet civilians and send them to Germany as Slave labor...
+ENDTEXT
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Novgorod
+attacker=Germans
+defender=Soviet Union
+@THEN
+TEXT
+After a long siege, the defenders of Novgorod, starving and without ammunition
+cannot hold out any longer. The deadly siege has caused terrible damage
+to the city and incredible hardship for the inhabitants: Thousands have died of
+starvation during the winter...
+ENDTEXT
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Wehrmacht
+attacker=Soviet Union
+defender=Germans
+@THEN
+TEXT
+The Red Army winter counter-attacks succeed in pushing the Germans back
+from threatening the outskirts of Moscow...
+The German turn captured cities and villages into fortresses they call
+"hedgehogs" to stop the Russian advance.
+ENDTEXT
+@ENDIF
+
+@IF
+TURN
+turn=9
+@THEN
+TEXT
+The Germans bring up fresh troops from Western Europe to garrison
+captured Soviet cities and relieve the exhausted East-front veterans.
+ENDTEXT
+@ENDIF
+
+@IF
+UNITKILLED
+unit=French "Pride"
+attacker=Germans
+defender=French
+@THEN
+TEXT
+The French Arrmy is loosing moral
+ENDTEXT
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Leipzig
+attacker=ANYBODY
+defender=Germans
+@THEN
+TEXT
+The Germans are getting desperate. They set up a "Volksturm" army-group. It consits of german 
+civilians. They use everyone available. People over 50 and kids down to 13 years old.
+ENDTEXT
+CREATEUNIT
+unit=Wehrmacht
+owner=Germans
+veteran=no
+homecity=Leipzig
+locations
+65,0
+83,0
+endlocations
+@ENDIF
+
+@ENDEVENTS
