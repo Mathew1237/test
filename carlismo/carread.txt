@@ -1,0 +1,145 @@
+Warning! You need to have installed the Fantastic Worlds disk for this scenario to work! 
+
+THE FIRST CARLIST WAR V1.2
+
+By Javier Arriaga (jasev@aluesi.us.es)
+
+March 6, 2001
+
+HISTORICAL BACKGROUND
+
+	In the beginning of the XVIII century, the king Felipe V of Spain promulgated the "Ley Sálica", a law that declared illegal the inheritance of the Spanish crown by women. The idea was to avoid the Habsburgs recover the throne by female dynastic line.
+
+	A century later, the King Fernando VII had a great problem: he didn't have male descendancy, he only had two daughters, Isabel (later known as Isabel II) and Luisa Fernanda (grandmother of the later king Alfonso XIII). So he promulgated the "Pragmática Sanción" (pragmatic ratification), to allow their older daughter, Isabel, to become Queen after his death. But there only was a trouble: Carlos María Isidro de Borbón y Parma, the king's brother. He would receive the crown without the "Pragmática", so he and his followers pressed Fernando to change his mind. (Calomarde, a minister, received a slap by the queen because he supported Carlos. He said "White hands don't offend"... but it surely hurted). But the ill Fernando achieved to maintain his decision and when he dead, on 29th September 1833, Isabel was the legitimated queen... but she only was a child, and somebody had to assume the regency: his Mother, María Cristina de Nápoles.
+
+	This could be just another story of family fights; but in the beginning of the XIX century, the political situation in Spain was very problematic. During the independence war against Napoleon, the Courts of Spain met in Cádiz (1812) and elaborated the first Spanish Constitution, probably the modernest and most liberal one in the world. After the war, when Fernando VII returned to Spain, decided not to accept that and in the Manifest of Valencia, he annulled the constitution. Fernando VII became then an absolutist king, governing with decrees and restoring the inquisition (yes, it still existed).
+
+	Ending his life, Fernando made some concessions to liberals that gave them hopes of a liberal rule. But there has always been a faction against the liberals; many people had privileges with the absolutist rule, and they didn't want to lose their position. They knew 
+María Cristina and Isabel would make liberal reforms, so they looked for a candidate to the throne: and their natural election, with the background of the "Ley Sálica", was Carlos María Isidro.	
+
+	The church, a privileged class, was as ambiguous as ever (a candle to God, another one to the Devil); but many priests fought (with guns, of course) for Carlos.
+
+	The people of the Basque Provinces and Navarra elected the side of Carlos because the historical respect to the Catholic Church; ideologically, Carlos was clearly near them. There have been many authors that believed that the carlist cause in the Basque Country was a foralist cause. But it probably is an interested version with the clear intention of creating indices of a Basque nationalism before the Arana Brothers (an inspired and quite neutral version in "The Basque Nationalism", by Stanley G. Payne). Of course, the people though a traditionalist rule would respect better the ancient Foral institutions, and surely they were right. But the main reason of the massive mobilisation of the Basque Provinces and Navarra for the Carlist cause 
+must be searched in the great influence of the Basque clergy in the society. The great historian Salvador de Madariaga, in his book "Memories of a Federalist" (Buenos Aires, 1967), accused the Basque clergy to be "the heart, the brain and the root of the intolerance and the tough line" of the Spanish Catholic Church. There are another social and economical causes that have not been properly studied. In fact, there are more narrative books about Carlist War in Basque Provinces than historical works. This means a "romantic" vision of the Basque people fighting for their rights against the foreign rule of Castile. (See the New York Daily Tribune, 1854, an article by Karl Marx: "The carlism is not a simple retrograde and dynastic movement that any well-payed and liar liberal historians tried to explain us. It's an spontaneous and popular movement in defence of traditions more liberals and regionalists than the absorbent official liberalism... The carlist traditionalism owns an authentically popular and national base formed by peasants, little land owners and the low clergy"; well, I'm sure he spoke with a carlist dirigent before writing this). 
+
+	Meanwhile, in Catalonia and Aragón, the people saw the chance of recovering their foral rights, that were lost after Spanish succession war when Felipe V defeated their armies that fought for Archduke Karl of Austria, the other candidate to the throne after the death of Carlos II. It is quite ironic that the Aragonese and Catalans went to war to defend the "Ley Sálica", promulgated by a King that they still hate (to mention the name of Felipe V in Barcelona is not very diplomatic).
+
+	In the other side, the liberals and moderates united to defend the "new order" represented bt María Cristina and her daughter, Isabel. They controlled the institutions, almost the whole army and the cities; the carlist movement was stronger in the country. They have the 
+important support of Great Britain, France and Portugal, support that was shown in the important credits to Cristina's treasure and the military help from British (British Legion, General Lacy Evans) and Portuguese (a part of the regular army, General Baron Das Antas). The Liberals had force enough to win the war in two months, but an inefficient government and the dispersion of the carlist forces gave time Carlos to consolidate his forces and resist almost seven years in 
+the northern and eastern provinces.
+
+	The war was long and hard, and the carlist forces achieved important victories in the north under the direction of a genial general called Tomás de Zumalacárregui. Opposing his advises, Carlos V decided to conquer Bilbao. With such an important city at his hands, the English banks would give him credits to win the war: one of the most important problems of Carlos was the lack of funds. And in the siege of Bilbao, Zumalacárregui was wounded in the leg by a lost bullet. The wound was not important, but it wasn't correctly healed and finally General Zumalacárregui lost his life on 25th June 1835. Any historians think it was a very strange death, and remind that the general had too many enemies in the Carlist court... well, the Basque
+nationalists reject this possibility and say it was only misfortune that caused the Carlist defeat. After the death of Zumalacárregui, the liberals slowly recovered the initiative but were not able to win the war until 1839.
+
+	The war ended with the "Abrazo de Vergara" (the embrace in Vergara), 31st August 1839, between the liberal general Baldomero Espartero (a very interesting and almost fascinating character) and the carlist General Rafael Maroto. Many people says General Maroto was a betrayer, but it is clear that the carlists were too tired and the liberal rule too consolidated to continue with the war. In the east, General Cabrera continued with the war but he was alone and
+finally had to flee to France. Though, Cabrera was considerated a hero and returned for the Third Carlist War... but that is another story.
+
+Bibliography: "Las guerras Carlistas", by Josep C. Clemente, Sarpe Editorial, 1986
+	      "History of the Basque Nationalism", by Stanley G. Payne, 
+						   Nevada University Press, 1974
+	      "Historia del Tradicionalismo Español", by Melchor Ferrer, Sevilla 1930
+
+
+INSTALLATION
+
+	As indicated above, this scenario will only work with Civ2 version 2.7.81, i.e. the one provided by the Fantastic Worlds scenario disk, or higher. Playing with Multiplayer Gold Edition (MGE) is possible, but that Civ2 version doesn't allow 3-point objective cities so it could be strange (a further version 1.3 will correct it transformating the 3-point cities into 1-point cities). Make a new folder under the Scenarios folder. Call it "Carlismo" and put all the files in it. Go to the "Carlismo" directory -this is very important- and execute "setsound.bat"; this batch file will set up the sounds for this scenario.
+
+
+VERSION 1.1
+
+	I only did minor changes. For example, I added any sounds for units. I get the "terrain1.gif" and "terrain2.gif" from J. Balsinde´s "Spanish Pride", because they are more appropiate for a scenario in Spain. I get some icons from "Spanish pride" too, and put them in the "icons.gif". I added three new spacial units, three generals: Zumalacárregui, Cabrera -carlists- and Espartero -liberal-. When I noticed that the Guardia Civil Corps was founded in 1844, I had to replace them with a new unit with similar characterictics, the Liberal Volunteers; I now it´s an oddjob, but I  really wished to have a good and cheap defense unit at the liberal side. I also changed the "title.gif".
+
+VERSION 1.2
+
+	A new change of "title.gif", new icons for British & French Troops, a new palace icon, new terrains, new events, new flags. I also changed the "Madrid event": If the carlists conquer Madrid, liberals won't disappear (like like they did in former versions), but carlists will receive more troops. I changed the Liberal Volunteers to Militia, a urban force stablished in 1834. And I created the Irregulars unit to substitute the partisans. I added a condition to avoid moors stealing french technologies (to build better units). Finally, I increased the denominator in "events.txt" from 12 to 15 for the carlist troops: the carlist player will receive less troops.
+
+THE PLAYERS & SOME STRATEGY TIPS
+
+	This is (or tries to be) a 100% historically accurate scenario. This means, I have set up the things for them to occur as close as possible to historical reality. 
+	
+	The scenario is thought to be played with the Carlists; they are, initially, the weakest and littlest tribe... excepting the British. They start with their forces dispersed in the whole northern half the peninsula; use that forces to entertain the liberals until your Basque 
+positions are firm enough to resist. You begin with the control of the northern Ebro cities: Burgos, Logroño, and Álava. You own also Bilbao, but the liberals have sent Gen. Pedro Sarsfield to recover it... and he will do it. Of course, you will have a capital city: Estella. The true capital of the carlists was Vergara, but Estella was the centre of the carlist army and I considered it as the capital (in fact, Vergara was only a village). You must defend it at all costs (always have 2 carlist troops minimum there). Melilla and Alhucemas are Carlist too, but they aren't important cities, because they are surrounded by Moorish and French Cities... and I advice you to maintain peace with them. Every turn, you will receive some units of Carlist Troops, probably the best military unit in this scenario; they will appear in Basque Provinces, Navarra, La Rioja, Aragón, Catalonia and Valencia. They are all veterans and emulate the carlist volunteers that fought valorously in the war; they knew the terrain and that allowed them to defeat liberal forces many times. But they are volunteers; you can not control their recruitment, so you won't be able to produce them. Don't cry, you will receive 3 units or more per turn as standard.
+	You have two more spacial units: Zumalacárregui and Cabrera, two genial generals that achieved to build their armies in Navarra and Aragón; they were the liberal nightmare and if you lose them, your morale and your financial support will drop.
+
+	If you are able to maintain Álava and Logroño, you will have to defend your positions, and the mountains near Logroño are the adequate place: liberals won't be able to defeat your carlist troops (defence factor 6) unless they organise a massive attack. Then, with your troops, try to conquer Pamplona; it's very dangerous to have it at your back. At June 1835, you will receive troops to conquer Bilbao, so be prepared to reforce them with more troops. If you conquer Bilbao (or Barcelona), the British banks will give you a credit of 4000. Then, if you conquer San Sebastián, you will have a very quiet position; follow then the Ebro line to attack Zaragoza and Teruel for joining your forces in the east.
+
+	In the east, you begin with no cities. But you will receive many troops, so use them to capture a little city, like Lérida, Tarragona or Castellón. In fact, try to conquer all of them. 
+Then, you must defend the road of Valencia while you attack the piece of cake: Barcelona.
+
+	If you achieve those objectives and still have time, capture Valencia and Alicante. Then cross La Mancha and attack Madrid. If you take Madrid, Carlos will proclamed as the new king and your position will be considerabily stronger, receiving more Carlist Troops per turn.
+
+	Of course, this is only one of the possible strategies: maybe you can attack Madrid directly crossing Castilla la Vieja. Do what you want; it's your game.
+
+	Your government type is a Monarchy, renamed "Absolutist Monarchy".
+
+	If you decide to play with liberals... well, it'll be  quite easier. Maintain your cities building a minimum of 2 infantry units and a unit of Militia (your special military unit: cheap and quite good at defence) as soon as it is available. Try to take the carlist cities soon, before they receive help and fortify. Burgos and Logroño are vital to be taken in the first three turns. If you are able to enter with your army in the northern Ebro lands, the victory will be yours. In fact, if you are able to conquer Estella, the Carlists will lose their financial support and the war will be easier. Your units are worse than the other tribes special units, but you have a big industrial capacity and a huge population. And don't fear buying enemy units and cities, you'll have money. You have one more special unit: Espartero. The most famous general in the liberal side, he defeated many times the carlist troops in Luchana Bridge, Arrigorriaga, Arenzueque... try to maintain him alive.
+
+	Your government type is a Republic, recalled "Liberal Monarchy". You won't have economical problems... and your allies will give you some money sometimes.
+
+	Playing with the French could be interesting; they are immersed in a colonial war against the moors in Algeria and Morocco. If you want to play with them, you can edifice a colonial empire in northern Africa, taking advantage of Spanish distraction to build your influence 
+sphere. But this is a scenario about Spain, so it's not very logic to do this.
+
+	Your special units, the French troops, are really powerful and can destroy quite easily the Moorish infantry. Your government type is a Liberal Monarchy.
+
+	With the moors, you control a vast extension of land with a quite big population, but your technology is quite pathetic. The moorish cavalry and infantry are cheap, but poor in combat. Your cannons are old and unefficient. You are at war with the French, and they are powerful. Use your speed and number to defeat their troops, if you can. Your government type is an Absolutist Monarchy.
+
+	Make yourself a favour: don't play with British. They only own a city, Gibraltar, and you will only have two frigates and 3 of your special units: British Troops. They are weaker than French Troops or Carlist Troops, but they are faster (movement rate of 2). I only put them in the scenario because they sent the Evans Legion to help the liberals.
+
+	Portuguese are a powerful tribe; the only trouble is, they are completely surrounded by liberals. If you want to expand, you will have to transport your troops by the sea to attack the moors, french or carlists. I really advice you not to attack liberals, because you will have many troubles to break their border line; it is defended with the best defended unit in the game: the border troops. Your special unit is Portuguese infantery: they are like the regular infantery, but with a smaller attack factor and cheaper.
+
+
+RULES & VICTORY CONDITIONS
+
+	Research progresses at a 10000/10 rate. Yes, you are right: I don't want you to discover anything; you should dedicate every resource to the war effort. No Wonders are available for building; all are already built. All of them, except for Puerta de Alcalá, Guernica Tree, San Lorenzo's Monastery, Plaza Mayor, and Cave Paintings, are obsolete at the beginning of the scenario (I needed these five wonders to keep the liberal population content). I must confess I borrowed the wonders from a scenario by Jesús Balsinde: "Spanish civil War", excepting the 
+Guernica tree (it's mine).
+
+	No diplomatic talks are allowed in this scenario. The liberals and carlists are always at war with each other. No government switching is allowed.
+
+	This is an Objectives Scenario. There are 29 objectives. In the beginning, the Liberals control 22 of these and the Carlists control the remaining 7. The carlists need 22 objectives to achieve a decisive victory, and 16 to achieve a marginal victory. 8 objectives mean a carlist marginal defeat, and 2 mean a carlist decisive defeat. It is perfectly possible to achieve a decisive victory playing with the Carlists, but it is not easy. Of course,
+the scenario is designed for play at Deity level only.
+
+*	A decisive victory means you achieved to control the most important cities in Spain and you are stronger than liberals. Perhaps you conquered Madrid.
+*	A marginal victory means you have a solid base in northern Spain and liberals are not able to break your defences; liberals and carlists will make an agreement about the succession problem.
+*	A marginal defeat means you have lost, but the enemy is too tired to exterminate you. You will sign an agreement with liberals and you will surrender, but your army will be indulged and your officers will join the Spanish Army. These were the terms of the Vergara treaty.
+*	A total defeat means you are a pathetic general unable to achieve any more. You will be jailed until your death.  Yes, everybody will laugh about you.
+
+	The scenario begins October 1833 and ends September 1839. There is a total of 72 turns.
+
+	These are the cities that are considered objectives and the number of points they are worth each:
+
+LIBERALS 			CARLISTS
+Madrid (capital(x3)		Estella (capital)(x1)
+Barcelona (x3)			Bilbao (x3)
+Zaragoza (x3)			Vitoria (x1)
+Valencia (x3)			Logroño (x1)
+Santander (x3)			Burgos (x1)
+Lerida (x1)
+Gerona (x1)
+Castellón (x1)
+Tarragona (x1)
+San Sebastián (x1)
+Pamplona (x1)
+Sevilla (x1)
+
+THE TITLE.GIF
+
+	The title.gif is a picture by Bernardo López, "Espartero y Maroto", showing the two generals who signed the peace treaty in Vergara. The picture is in Lázaro Galdiano Museum (Madrid) and the photo belongs to Oronoz archives.
+
+
+CREDITS
+
+	The map used in this scenario was made by Pedro López Rodríguez. The "terrain1.gif", and many icons at "icons.gif" have been directly copied from Jesús Balsindes's "Spanish Civil War: Defence of Madrid" and "Spanish Pride". Any of the "terrain2.gif" templates (hills & mountains) belong to Jesús Muñoz.
+
+	The corvette icon comes from another J. Balsinde's scenario, "Time of Thunder". The brigantine and Militia icons are from scenario "Bonaparte", by John Ellis. The Artillery unit is from Allard Höfelt units collection. The steam ship icon is from the XIX century units collection. The regular infantry and regular cavalry are from the XIX century collection, too.  The moorish cavalry unit was taken from J. Balsinde's scenario "Spanish Civil War". Jesús Balsinde created the Border Troops unit. The Carlist Troops is an adaptation I made from original J. Balsinde's Falangists. The Moorish infantry icon is from Jesús Balsinde... with a little adaptation by me. The Zumalacárregui icon is the carlist icon in "Spanish Pride", and was created by Jesús Balsinde; the Cabrera icon is the same, but I painted his txapela in white, because this was the true colour of carlist troops opperating in the East of Spain. I changed the head of J. Balsinde's Militians to create Irregulars.
+
+	The French, Portuguese and British flags are from Michael D. Raney.
+
+	Finally, I want to thank everybody who made suggestions for this version 1.2.
+
+	This is my third scenario created with Fantastic Worlds and the first dedicated to spanish History. You can find the rest in my website:
+
+	http://www.geocities.com/jasev
+
+ 	If you want to make any comments, suggestions, etc. please e-mail me to:
+
+	jasev@aluesi.us.es

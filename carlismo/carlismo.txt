@@ -1,0 +1,22 @@
+@SCENARIO
+@width=380
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+^
+^^THE FIRST CARLIST WAR (1833-1839) v1.2
+^^6th March 2001
+^ 
+^ _____"I, Carlos María Isidro de Borbón, fifth in the throne of the Emperor 
+^ Carlos, order my fidels to scourge the cristinian army, forming Parties
+^ that will take refuge in the woods and in the mountains..."
+^ 
+^^___________________Carlos María Isidro de Borbón-Parma, October 1833
+^
+^ RECOMMENDED: Carlists
+^ WAY TOO EASY: Liberals
+^ INTERESTING: French, Moors
+^ NOT FOR PLAY: Portuguese, British
+^
+^ For more information, See the "carread.txt" file in "carlismo" path
+^
+@end -- this line must be here!

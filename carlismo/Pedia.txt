@@ -1,0 +1,899 @@
+;
+;   CIVILIZATION CIVILOPEDIA TEXT
+;   Copyright (c) 1995 by MicroProse Software
+;
+;   Last changed March 5, 2001
+;   The First Carlist War, by Javier Arriaga
+:
+;   Altering the contents of this file may cause the
+;   game to malfunction.
+;
+
+@PEDIAPICKCIV
+@width=540
+@columns=3
+@listbox
+@title=Civilopedia: Civilization Advances
+
+@PEDIACIV
+@width=480
+@title=Civilization Advance
+^^%STRING0
+^
+
+
+@PEDIACIVFACTS
+^Allows government form of same name.
+^Allows settlers to build fortresses.
+^Allows settlers to build airbases.
+^Allows settlers to build railroads.
+^Allows settlers to improve farmland.
+^Increases the effect of temples.
+^Increases the effect of bullrings.
+^Worth bonus points in Civilization score.
+^Increases ship movement rates by one.
+^Improves Spaceship thrust by 25%.
+^Free civ. advance for first civ. to discover.
+^Decreases the effect of Cathedrals.
+^Cancels the effect of
+
+
+@PEDIAPICKUNIT
+@width=540
+@columns=3
+@listbox
+@title=Civilopedia: Unit Types
+
+@PEDIAUNIT
+@width=480
+@title=Unit Type
+^^%STRING0
+^
+
+@PEDIAUNITFACTS
+^Can see units two spaces away.
+^Ignores enemy Zones of Control.
+^Can make amphibious landings.
+^Invisible to most enemy ships.
+^Can attack aircraft in flight.
+^May be lost out of sight of land.
+^Ignores City Walls.
+^Can carry friendly air units.
+^Can make paradrops.
+^Treats all squares as road squares.
+^Defense +50% versus units with a movement factor of 2.
+^Only Fundamentalist governments can build.
+^Destroyed after attacking.
+^Defense +100% versus air and missile units.
+^Can spot enemy submarines in adjacent squares.
+
+
+@PEDIAPICKGOVT
+@width=480
+@listbox
+@title=Civilopedia: Governments
+
+
+@PEDIAPICKIMPROVE
+@width=540
+@columns=3
+@listbox
+@title=Civilopedia: City Improvements
+
+@PEDIAIMPROVE
+@width=480
+@title=City Improvement
+^^%STRING0
+^
+
+@;Palace
+@PEDIAIMPROVE1
+Eliminates corruption and waste in the city,
+and decreases it in all nearby cities.
+
+@;Barracks
+@PEDIAIMPROVE2
+City produces Veteran ground units. Ground units can
+be completely repaired in a single turn.
+
+@;Granary
+@PEDIAIMPROVE3
+Only half of city's food store is depleted when
+city increases in size.
+
+@;Temple
+@PEDIAIMPROVE4
+Up to two discontented citizens are made content.
+
+@;Marketplace
+@PEDIAIMPROVE5
+Increases tax and luxury output by 50%%.
+
+@;Library
+@PEDIAIMPROVE6
+Increases science output by 50%%.
+
+@;Courthouse
+@PEDIAIMPROVE7
+Decreases corruption by 50%%. Makes city more resistant
+to bribery by enemy diplomats and spies. Under Democracy,
+one content citizen becomes happy.
+
+@;City Walls
+@PEDIAIMPROVE8
+Units in city are tripled on defense versus ground attacks.
+
+@;Aqueduct
+@PEDIAIMPROVE9
+Allows city to increase beyond size 8.
+
+@;Bank
+@PEDIAIMPROVE10
+Increases tax and luxury output by an
+additional 50%% (cumulative w/ Marketplace).
+
+@;Cathedral
+@PEDIAIMPROVE11
+Makes four unhappy citizens content (Three after Communism).
+
+@;University
+@PEDIAIMPROVE12
+Increases science output by an additional
+50%% (cumulative w/ Library).
+
+@;Mass Transit
+@PEDIAIMPROVE13
+Eliminates pollution caused by population.
+
+@;Bullring
+@PEDIAIMPROVE14
+Three unhappy citizens are made content
+(four w/ Electronics).
+
+@;Factory
+@PEDIAIMPROVE15
+Increases resource production in city by 50%%.
+
+@;Mfg. Plant
+@PEDIAIMPROVE16
+Increases resource production by an additional 50%%
+(cumulative w/ Factory).
+
+@;SDI Defense
+@PEDIAIMPROVE17
+Protects everything within three spaces of
+the city from nuclear attack.
+
+@;Recycling Center
+@PEDIAIMPROVE18
+Decreases the pollution caused by factories.
+
+@;Power Plant
+@PEDIAIMPROVE19
+Increases factory output by 50%%.
+
+@;Hydro Plant
+@PEDIAIMPROVE20
+Increases factory output by 50%%.  Cleaner
+than Power Plant, and generally safer than
+Nuclear Plant.
+
+@;Nuclear Plant
+@PEDIAIMPROVE21
+Increases factory output by 50%%.  Cleaner
+than Power Plant (same as Hydro Plant), but
+there is a risk of Nuclear Meltdown unless
+civilization has discovered Fusion.
+
+@;Stock Exchange
+@PEDIAIMPROVE22
+Increases tax & luxuries output by an additional
+50%% (cumulative with Marketplace & Bank for a grand
+total of 150%%).
+
+@;Sewer System
+@PEDIAIMPROVE23
+Allows city to grow beyond size 12.
+
+@;Supermarket
+@PEDIAIMPROVE24
+Allows squares in the city's radius with
+the "farmland" improvement (irrigated twice)
+to produce 50%% more food.
+
+@;Superhighways
+@PEDIAIMPROVE25
+All squares in the city's radius with roads
+(or railroads) produce 50%% more trade.
+
+@;Research Lab
+@PEDIAIMPROVE26
+Increases science output by an additional 50%%
+(cumulative with Library and University for a
+grand total of 150%%).
+
+@;SAM Missile Battery
+@PEDIAIMPROVE27
+Units in city are doubled on defense against
+air units and non-nuclear missile units.
+
+@;Coastal Fortress
+@PEDIAIMPROVE28
+Units in city are doubled on defense against
+shore bombardment by enemy ships.
+
+@;Solar Plant
+@PEDIAIMPROVE29
+Increases factory output by 50%%.  Cleaner
+than all other forms of power.
+
+@;Harbor
+@PEDIAIMPROVE30
+All ocean squares in the city's radius
+produce one extra unit of food.
+
+@;Offshore Platform
+@PEDIAIMPROVE31
+All ocean squares in the city's radius
+produce one shield.
+
+@;Airport
+@PEDIAIMPROVE32
+City produces veteran air units.
+Any air unit spending its entire turn in the city
+is completely repaired.
+
+@;Police Station
+@PEDIAIMPROVE33
+Decreases unhappiness caused by troops away from city by 1.
+
+@;Port Facility
+@PEDIAIMPROVE34
+City produces veteran naval units.
+Any ship spending its entire turn in the city is
+completely repaired.
+
+@;SS Structural
+@PEDIAIMPROVE35
+
+@;SS Component
+@PEDIAIMPROVE36
+
+@;SS Module
+@PEDIAIMPROVE37
+
+@;Capitalization
+@PEDIAIMPROVE38
+Converts production into trade.
+
+@;Pyramids
+@PEDIAIMPROVE39
+No effect; just a symbol.
+^
+^___The Roman Aqueduct of Segovia, of an overall length of 813 m,
+was built to channel water from the Frío River, some 18 Km away 
+from the city. The aqueduct consists of two rows of superimposed 
+arcades resting on 128 pillars and reaches a maximum height of 
+28.5 m. At the top runs the channel, which today still carries 
+water. This huge monument has not been dated precisely, although
+its building techniques allow a comparison with the "Aqua Claudia" 
+of Rome, which was built between 38 and 52 AD.
+
+@;Hanging Gardens
+@PEDIAIMPROVE40
+No effect; just a symbol.
+^
+^___The Altamira Cave in Santander was discovered by
+chance in 1869 by Marcelino Sanz de Santuola but it was not
+until 1879 that the first paintings were found. Bisons
+in different positions are most common, but there are also
+drawings of human-like beings with animal heads and
+comb- and step-like symbols difficult to interpret. Access to
+the cave is restricted today because the carbon anhydride
+breathed out by the visitors damages the old paintings. The
+importance of them is so great that the Altamira Cave is often
+referred to as the Sistine Chapel of Paleolithic Art.
+
+@;Colossus
+@PEDIAIMPROVE41
+No effect; just a symbol.
+^
+^___The Legio VII Gemina, quartered at the confluence of the
+Bernesga and Torio rivers in the year 68 AD, originated the
+city of León, which still conserves part of the Roman Walls.
+The city became capital of the Christian Kingdom of León in
+the X century and holds the honor of being one of the oldest
+scenarios of European parliamentarism, of which there is
+written evidence: the Courts of the Kingdom, where on July 28,
+1188, citizens were represented for the first time. León has
+the most classical and homogeneous Gothic cathedral in Spain, 
+entirely imbued with striking harmony and slenderness. 
+
+@;Lighthouse
+@PEDIAIMPROVE42
+No effect; just a symbol.
+^
+^___ The Tower of Hercules is the most representative monument
+of La Coruña and, as such, constitutes the main element of the 
+city's seal (depicted in the icon). It was built in the II
+century, during the epoch of Emperor Trajano. The only
+Roman lighthouse in the world, the Tower of Hercules is still in 
+service. Its light can be seen from a distance of 60 km off the
+coast. The Tower was reconstructed in the late XVI century to 
+its current form. Legend has it that the demi-god Hercules, 
+having killed tyrant Gerion, built the tower to mark the place 
+where the event ocurred.
+
+@;Great Library
+@PEDIAIMPROVE43
+No effect; just a symbol.
+^
+^___One of the largest and best preserved of all Castilian castles,
+this impresive fortress was built on a hilltop ("mota" meaning just
+this, hilltop) in Medina del Campo, near Valladolid. Construction 
+began in the XIII century and continued until the XV century under the
+Catholic Monarchs. The castle served indeed as a residence of Queen 
+Isabella. Later in the XVI and XVII centuries it served as a state
+prison.
+
+@;Oracle
+@PEDIAIMPROVE44
+Doubles the effects of temples.
+^
+^___ The Guernica tree is the symbol of basque foral rights. It is
+an oak, and the tradition says that the representatives of the
+basque people celebrated their meetings under its shadow. It is
+located in Guernica, ancient capital city of the Vizcaya Dominion,
+near Bilbao.
+ 
+@;Great Wall
+@PEDIAIMPROVE45
+No effect; just a symbol.
+^
+^___The Castilian city of Avila preserves the oldest, most
+complete walled enclosure of the European Middle Ages. The
+construction began in 1090 under Alfonso VI's rule to protect
+the Christian territories from the Moors, but most of the work 
+was carried out in the course of the XII century. Avila dates 
+from Celtic Iberian times and is known as the "city of Saints 
+and Stones", as it was the birthplace of Saint Teresa of Jesus
+and the burial ground of the infamous Great Inquisitor 
+Torquemada.
+
+@;Sun Tzu's War Academy
+@PEDIAIMPROVE46
+No effect; just a symbol.
+^
+^___ Rodrigo Díaz de Vivar, "El Cid Campeador", is the epitome
+of the Medieval Knight. The son of a minor Castilian nobleman,
+El Cid was born in Vivar, near Burgos, circa 1040. He grew up
+in the household of the future King Sancho II, and soon he 
+distinguished as the King's premier knight. After Sancho II was
+assassinated in 1072, El Cid entered service of his brother, the
+new King Alfonso VI. In 1081 however, he was banished from Castile
+and set off for eastern Spain in search of honor and glory. His 
+military career culminated with the capture of Valencia in 1094,
+which he held and ruled until his death on July 10, 1099.
+
+@;King Richard's Crusade
+@PEDIAIMPROVE47
+No effect; just a symbol.
+^            
+^__ The pilgrimage to Santiago de Compostela began in the
+IX century with the discovery in 813 AD of what was said
+to be the tomb and bones of Apostle St. James (Santiago in
+Spanish). Compostela derives from the Spanish "campo de 
+estrellas", or starry field, as the discovery was made 
+during a starry night. By the XII century, the pilgrimage
+to Santiago was a major activity in Medieval Europe with 
+hundreds of thousands of pilgrims arriving. The scallop 
+shell, proudly worn by those who had completed the hazardous
+pilgrimage, became a badge of honor testifying to the faith
+and courage of its wearer. Santiago ranked with Rome and the
+Holy Land as one of the three great pilgrimages in Christianity. 
+
+@;Marco Polo's Embassy
+@PEDIAIMPROVE48
+No effect; just a symbol.
+^
+^___ Remains of an era where, until the XV century, Christians, 
+Jews and Muslims lived in harmony, the four towers of Teruel,
+built at the end of the XII and beginning of the XIII centuries, 
+form a characteristic complex of Mudéjar architecture. The Christian
+churches used the structure and decoration of Almohad minarets, 
+adapting them to their new functions. Mudéjar is the term used to 
+designate the Muslims who lived in Christian territory but remained 
+loyal to their faith.
+
+@;Michelangelo's Chapel
+@PEDIAIMPROVE49
+No effect; just a symbol.
+^      
+^__ The Great Mosque of Cordoba, whose construction was
+initiated in 784 under the rule of Abd-al-Rahman I, is
+irreplaceable proof of the flourishing and splendor of 
+the Umayyad Caliphate of Al-Andalus (929-1031). This 
+impressive monument harbors one of the most beautiful 
+architectural designs ever carried out, with the nineteen
+aisles of its hall containing a forest of columns, the
+curious overlapping arches and the ribbed cupola.
+
+@;Copernicus' Observatory
+@PEDIAIMPROVE50
+No effect; just a symbol.
+^            
+^__ The Giralda Tower was built between 1172 and 1198 as a minaret
+of Seville's Mosque. It is believed that the Giralda Tower served
+as an astronomical observatory for the world-renowned astronomers 
+of Al-Andalus. When the city of Seville was negotiating its 
+surrender to the Castilian troops of King Fernando III "the Saint" 
+in 1248, the Moors tried to impose the destruction of the Giralda, 
+ashamed that one of the most valued symbols of Islam could pass 
+onto Christian hands. Prince Alfonso X --the future Wise King and 
+an astronomer himself-- vehemently denied the request, threatening
+to kill all the Moors of Seville if the tower was not left untouched.
+Three centuries later, Copernicus himself studied the astronomy 
+treaties authored by Alfonso X, the "Tablas Astronómicas Alfonsíes".
+   
+
+@;Magellan's Expedition
+@PEDIAIMPROVE51
+No effect; just a symbol.
+^
+^___Almería was founded by Abd-al-Rahman III in 955 AD. Only one
+century after its foundation, the city attained such a prosperity that
+it was said that "When Almería was Almería, Granada was but its farm" 
+(Cuando Almería era Almería, Granada era su alquería). From the end of
+the Caliphate of Cordoba (1031) to the arrival of the Almoravids in
+Al-Andalus (1085), Almería rose as the most important city of Muslim
+Spain. The Alcazaba, built in the X century, dominates the town and is
+the best preserved Moorish fortress in Spain.
+
+@:Shakespeare's Theater
+@PEDIAIMPROVE52
+All unhappy citizens in city are content.
+^         
+^___The Puerta de Alcalá is a neoclassicist arch structure built in 1778 by order
+of king Carlos III ("Madrid's best major"). It stands in the middle of the Plaza
+de la Independencia, forming the gateway to the Calle de Alcalá. With 
+the years it has become the most recognizable symbol of Madrid.
+
+@;Da Vinci's Workshop
+@PEDIAIMPROVE53
+No effect; just a symbol.
+^
+^___ Built in 1785, El Prado Museum was intended to be a museum of
+natural history. Having been used as the headquarters of the French
+cavalry during the Peninsular War, it became Madrid's Museum of Art
+in 1819. El Prado houses one of the most important collection of 
+paintings worldwide. The collection was first assembled by King 
+Fernando VII, who reunited the artwork scattered among various royal
+palaces. However, the origin of the collections owes much to the 
+passion for art of Carlos I and his son, Felipe II. These were 
+augmented by Felipe IV --the protector of Velázquez--, Felipe V and
+Carlos III. The building that houses the collection is a neoclassic 
+palace, perhaps the most beautiful in its style in Spain.
+
+@;J.S. Bach's Cathedral
+@PEDIAIMPROVE54
+No effect; just a symbol.
+^            
+^___ After his victory in the battle of St. Quentin over the
+French on August 10, 1557 --St. Lawrence's Day, San Lorenzo
+in Spanish--, King Felipe II wished to build a monastery as 
+a thanksgiving offering for the triumph. Built on a plan in 
+the form of a grill, the instrument of the martyrdom of St. 
+Lawrence, the Monastery sits on an exceptional beautiful site
+in El Escorial, near Madrid. It was both the retreat of a 
+mystic King, and the center of the greatest political power 
+of the time.
+
+@;Isaac Newton's College
+@PEDIAIMPROVE55
+No effect; just a symbol.
+^         
+^___The Alhambra of Granada is the foremost example of Muslim civil
+architecture in the West. All the refinement, wealth and delicacy
+of Islamic art reached its ultimate climax in this unique building
+which is a fortress, residence, and royal city all in one and finds
+an extension in the magnificent gardens of El Generalife. Alhambra
+means "Red Castle" in Arabic, a name derived from the color of its 
+walls. Granada, the ultimate seat of learning of Al-Andalus, witnessed
+the end of Arab rule in Spain when Muhammad Abu' Abd Allah (Boabdil), 
+the last Nasrid king, surrendered and handed the keys of the city to 
+the Catholic Kings on January 2, 1492 in return for his safe passage 
+out of Spain. Legend has it that Boabdil could not help bursting into
+tears when for the last time he turned to look back at the Alhambra. 
+His mother Ayesha reproached him with a sentence that has become famous:
+"You may well weep like a woman for what you could not defend like a man".
+
+@;Adam Smith's Trading Co.
+@PEDIAIMPROVE56
+No effect; just a symbol.
+^
+^___Built between 1482 and 1533, this building, originally used
+for trading in silk (hence its name, The Silk Exchange), has 
+always been a place of commerce. A masterpiece of late Gothic,
+it illustrates the wealth and influence of Valencia, a major 
+Mediterranean mercantile power of the XV and XVI centuries.
+
+@;Darwin's Voyage
+@PEDIAIMPROVE57
+No effect; just a symbol.
+^
+^___ Christopher Columbus --Cristóbal Colón in Spanish--,
+set out from Huelva with three caravels on August 3, 1492
+to find a westward route to the fertile lands of Cipango 
+(Japan) and Cathay (China), but he found a new continent
+instead, America. On October 12, after a journey of 61
+days, Columbus landed in the Bahamas and claimed the
+territory for the Crown of Spain. He died without knowing
+that the land he had found was indeed a new continent and 
+not the East Indies. His voyage marked the beginning of the
+Spanish colonial empire.
+
+@;The Statue of Liberty
+@PEDIAIMPROVE58
+No effect; just a symbol.
+^
+^___The Tower of Belem in Lisbon, built to commemorate Vasco da Gama's
+expedition, is a reminder of the great maritime discoveries by Iberian
+sailors that laid the foundation of the modern world: Vasco da Gama,
+Ferdinand Magellan, Juan Sebastián Elcano, Núñez de Balboa, Rodríguez
+Cabrillo, among many others.
+
+@;The Eiffel Tower
+@PEDIAIMPROVE59
+No effect; just a symbol.
+^
+^___This church, consecrated to the Holy Virgin of Pilar, patroness not only 
+of Zaragoza where the basilica is, but of all regions of Spain, is one of 
+the most visited places of pilgrimage in the country. Legend relates that 
+Apostle Santiago, when preaching in Spain in 40 AD, saw a vision of the Virgin,
+who descended on a marble pillar supported by angels and commanded him to build
+a chapel in her honor. The basilica is a baroque building, although some parts
+such as the neoclassical main facade, were added in later periods. In its 
+interior there are many paintings by the Aragonese Francisco de Goya, one of the
+greatest painters of all time. 
+
+@;Hoover Dam
+@PEDIAIMPROVE61
+No effect; just a symbol.
+^
+^___Succesively a Roman municipium, the capital of Visigothic Spain,
+a northern outpost of the Arab Emirate and Caliphate of Al-Andalus,
+the capital of the kingdom of Castile and later of the Spanish empire,
+Toledo is the keeper of more than two millenia of history. It is the
+monumental city by excellence. Its masterpieces are the product of
+heterogeneous civilizations in an environment where the co-existence
+of three major religions --Judaism, Christianism and Islamism-- was
+a determining factor. Toledo's landmark is probably the fortified
+palace of El Alcázar, its four towers rising above the city's highest
+point. Though medieval in origin, its present contours are XVI-century
+Renaissance in style. It has had to be rebuilt several times, the last
+of these in 1940, after being razed during the Spanish Civil War.
+
+@;Women's Suffrage
+@PEDIAIMPROVE60
+No effect; just a symbol.
+^
+^___The Plaza Mayor (Main Square) is located in Madrid's downtown.
+King Felipe III ordered to build this impressive square between 1617
+and 1619 as a part of his efforts to embellish the capital of the 
+omnipotent Habsburg monarchy. The buildings are mostly Renaissance style 
+and in the center there is a statue of the king. During the XVII century
+this square served as a meeting place of the Gremios, the associations of 
+craftsmen. In addition, it was the scenary of theatrical performances and
+bullfights. Today it is one of the most genuine landmarks of the capital 
+of Spain. 
+
+@;Manhattan Project
+@PEDIAIMPROVE62
+No effect; just a symbol.
+^
+^___In the VIII century nearly all Spain was in Moslem hands, but in 
+Asturias, shielded from the invaders by the Cantabrian mountains,the 
+Christians organized their forces ans set up a kingdom with Oviedo as 
+their capital. Here, in a concentrated area, they erected a group of 
+pre-Romanesque buildings of the highest interest. In style, they 
+continued the Visigothic tradition, with debased classical ornament, 
+but carved in  manner perhaps even more rustic than that used by the 
+Visigoths themselves. The oldest of these are the Cámara Santa, now 
+incorporated into the Cathedral at Oviedo, and San Julián de los 
+Prados, both built at the end of the VIII century, while from the 
+IX century there remain San Miguel de Lillo and Santa María del
+Naranco, just outside Oviedo.
+
+@;United Nations
+@PEDIAIMPROVE63
+No effect; just a symbol.
+^
+^____The Monastery of Las Huelgas in Burgos was built in 1187 under
+King Alfonso VIII of Castile on the site of a country residence of
+the Castilian kings ("huelga" meaning repose in Ancient Spanish). 
+The convent, to which only ladies of the highest rank were admitted
+as nuns, was granted extraordinary privileges. Several kings were 
+knighted here, including Fernando III of Castile in 1219, and 
+Edward I of England in 1254. This building, with its gothic 
+chapterhouse and romanesque cloister, is considered one of most 
+important monuments of the Middle Ages in Christendom.
+
+@;Apollo Program
+@PEDIAIMPROVE64
+No effect; just a symbol.
+^
+^___ Work on the monastery of Poblet, the largest Cistercian
+monastery in Catalonia, began in 1174 in honor of the Virgin
+Mary, and was consecrated in 1211. Ramón Berenguer IV, count of 
+Catalonia, ordered to build this monastery as a thanksgiving 
+offering for his victories against the Moors. When Catalonia
+was united with the crown of Aragón, the monastery become a 
+royal pantheon. The Aragonese kings Pedro II "the Great" 
+(1196-1213), and Jaime II "the Just" (1291-1327) are entombed 
+under the crossing of the church.
+
+@;SETI Program
+@PEDIAIMPROVE65
+No effect; just a symbol.
+^___ The Torre del Oro of Seville (Tower of Gold) owes its name to the
+characteristic golden reflections produced by the glaze that coated
+its twelve-sided exterior. It was built in the XIII century as a part
+of the city walls, although it is physically separated from them. It
+served as a surveillance point, as a defensive bulwark of the city's 
+port, and as a prison. After the Discovery of America, the Torre del 
+Oro was utilized to store the silver and gold arriving from the colonies.
+
+@;Cure for Cancer
+@PEDIAIMPROVE66
+No effect; just a symbol.
+^
+^___Bullfighting is an integral part of the Iberian culture, thriving 
+nowadays in Spain, Portugal, southern France, and several Latin 
+American countries, most notably Mexico, Colombia and Venezuela.
+Deemed by ones as a cruel, barbaric spectacle, it is for others art
+in motion, the ultimate expression of the dichotomy of life and death, the 
+intelligence and courage of man confronted with the brutal force of 
+beast. Bullfighting traces its origins back to the Middle Ages, when
+Christians and Moors competed in hunting the wild Iberian bull. This
+beautiful and awe-inspiring beast, with its unique noble bravery
+would, when provoked, rather die fighting than flee.
+
+@PEDIAGOVT
+@width=600
+@title=Civilization: Governments
+The form of government you choose for your civilization will
+affect the way resources are distributed in your cities, the
+rate at which your citizens can produce and sustain new units
+and city improvements, and the extent to which your citizens
+have a say in the way you govern them.
+^
+Some forms of government, such as Despotism, Monarchy, and
+later Communism and Fascism, allow you to expand rapidly,
+to produce and sustain large numbers of military
+units, and to control your affairs completely.
+^
+Democracy and the Republic, on the other hand, give your
+citizens the freedom to produce vast amounts of trade, which
+increases your wealth and knowledge rapidly. On the other
+hand, your citizens may grow unhappy when you send military
+units out of your cities; also, your Senate may try to
+interfere in your conduct of foreign affairs.
+^
+To change your civilization's government, you must have a
+Revolution--select "Revolution" from the Kingdom Menu.  This
+will entail a brief period of Anarchy.
+
+@PEDIAGOVT0
+@width=600
+@title=Civilization Government: Anarchy
+Anarchy represents not so much a government type as the
+lack of any stable government. Anarchy occurs when your
+civilization's government falls, or when you decide to
+have a Revolution. After a few turns of Anarchy, you will
+be able to reconstitute your government.
+^
+Anarchy is similar to Despotism, except that the corruption
+rate is VERY HIGH (see entry for Despotism).  However, no
+taxes are collected during a period of Anarchy, and no
+scientific research is conducted.
+
+@PEDIAGOVT1
+@width=600
+@title=Civilization Government: Despotism
+^UNIT SUPPORT
+Each unit above the city size costs one shield per turn.
+Settlers eat one food per turn.
+^
+^HAPPINESS
+Up to three military units in each city will institute
+"martial law", converting an unhappy citizen into a content
+citizen.
+^
+^CORRUPTION AND WASTE
+Despotism has a HIGH rate of corruption and waste.  The
+level of corruption in a particular city is based on its
+distance from your capital.
+^
+^SPECIAL
+Under Despotism, none of the science/tax/luxury rates may
+be set higher than 60%%.  ALSO, ANY SQUARE WHICH WOULD ORDINARILY
+PRODUCE THREE OR MORE OF A RESOURCE (FOOD, SHIELDS, TRADE) PRODUCES
+ONE LESS.
+^
+^HINTS
+Because of Despotism's high rate of corruption, it is almost
+always an inferior form of government.  Try to switch to a
+Monarchy as soon as possible.
+
+
+@PEDIAGOVT2
+@width=600
+@title=Civilization Government: Monarchy
+^UNIT SUPPORT
+Each unit beyond the third costs one shield per turn.
+Settlers eat one food per turn.
+^
+^HAPPINESS
+Up to three military units in each city will institute
+"martial law", converting an unhappy citizen into a content
+citizen.
+^
+^CORRUPTION AND WASTE
+Monarchy has a MODERATE rate of corruption and waste.  The
+level of corruption in a particular city is based on its
+distance from your capital.
+^
+^SPECIAL
+Under a Monarchy, none of the science/tax/luxury rates may
+be set higher than 70%%.
+^
+^HINTS
+Monarchy is an excellent form of government for a young
+civilization.
+
+
+@PEDIAGOVT3
+@width=600
+@title=Civilization Government: Communism
+^UNIT SUPPORT
+Each unit beyond the tenth costs one shield per turn.
+Settlers eat TWO food per turn.
+^
+^HAPPINESS
+Up to three military units in each city will institute
+"martial law", converting *TWO* unhappy citizens into
+content citizens (so a total of SIX unhappy citizens can
+be suppressed).
+^
+^CORRUPTION AND WASTE
+Under Communism, state control of the economy eliminates
+organized crime.  Your cities, therefore, experience no
+corruption.
+^
+^SPECIAL
+All SPY units produced under Communist governments are
+given VETERAN status.  Under Communism, none of the
+science/tax/luxury rates may be set higher than 80%%.
+^
+^HINTS
+Communism is best for large, far-flung empires which need
+to maintain a huge military.  Use your powerful spies to
+steal technology from the capitalist pigs.
+
+@PEDIAGOVT4
+@width=600
+@title=Civilization Government: Fascism
+^UNIT SUPPORT
+Each unit costs one shield per turn
+(exclusive of Falangistas which are free of maintenance) 
+Settlers eat TWO food per turn.
+ONLY Fascists may produce
+stormtroop units.
+^
+^HAPPINESS
+State sponsored Fascist rallies ensure NO CITIZEN IS EVER UNHAPPY!
+^
+^CORRUPTION AND WASTE
+Falangista efficiency ensures Fascism has NO corruption.
+However, Fascism has the special disadvantage that all
+SCIENCE is CUT 30%% due to the throwing out of unwanted
+intellectuals.
+^
+^SPECIAL
+Improvements which convert unhappy citizens to content
+citizens (Temples, etc.) are stormed and produce "SEIZINGS" 
+of gold equal to the number of citizens they would otherwise
+convert.  They also require no maintenance.  The diplomatic
+penalties for "fifth collumnist activities" by your Diplomats
+and Spies are reduced.  Under Fascism, none of the
+science/tax/luxury rates may be set higher than 80%%.
+^
+^HINTS
+Fascism eliminates all happiness problems and provides
+an excellent revenue.  Military affairs do well with no 
+interference from the Cortes! (a.k.a. Senate)
+
+
+@PEDIAGOVT5
+@width=600
+@title=Civilization Government: Republic
+^UNIT SUPPORT
+Each unit costs one shield per turn.  Settlers eat TWO
+food per turn.
+^
+^HAPPINESS
+Each military unit AFTER THE FIRST which is not in a friendly
+city (or a fortress within 3 spaces of a friendly city)
+causes one citizen in its home city to become unhappy.
+^
+^CORRUPTION AND WASTE
+The Republic has a LOW rate of corruption and waste.  The
+level of corruption in a particular city is based on its
+distance from your capital.
+^
+^SPECIAL
+Under a Republic, each square which ordinarily produces at
+least one unit of trade produces an extra unit.
+None of the science/tax/luxury rates may be set higher
+than 80%%.
+^
+^HINTS
+Switching to a Republic can give an astounding boost to your
+science and tax revenues, although you'll probably have to
+divert some of your trade to luxuries.  It becomes more
+difficult (and expensive) to keep an army in the field, but
+building the Womens Suffrage wonder can help with this
+problem.
+
+@PEDIAGOVT6
+@width=600
+@title=Civilization Government: Democracy
+^UNIT SUPPORT
+Each unit costs one shield per turn.  Settlers eat TWO
+food per turn.
+^
+^HAPPINESS
+Each unit which is not in a friendly
+city (or a fortress within 3 spaces of a friendly city)
+causes TWO citizens in its home city to become unhappy.
+^
+^CORRUPTION AND WASTE
+Democracies experience NO corruption or waste.
+^
+^SPECIAL
+Under a Democracy, each square which ordinarily produces at
+least one unit of trade produces an extra unit.
+The units and cities of a Democracy are immune to BRIBERY
+of all forms.
+The science/tax/luxury rates may be set to any level
+desired.
+^
+^HINTS
+Democracies can produce spectacular amounts of revenue and
+scientific research.  However, because of the severe
+happiness restrictions on military units, this form of
+government tends to be viable only for large, advanced
+civilizations.  Increasing your luxuries rate and building
+Wonders can help alleviate this problem.
+
+@;This line must remain at the end of this file!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

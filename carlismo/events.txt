@@ -1,0 +1,1154 @@
+@BEGINEVENTS
+
+@IF
+TURN
+turn=1
+@THEN
+TEXT
+3rd October 1833: The war begins when Manuel María González cried "Viva Carlos V" in Talavera
+de la Reina. Many armed parties appeared in Spanin, mainly in Navarra, Basque Country, Catalonia
+and Valencia.
+^
+A liberal column, commanded by Pedro Sarsfield, marches to recover Bilbao, Vitoria and Logroño.
+ENDTEXT
+@ENDIF
+
+@IF
+TURN
+turn=4
+@THEN
+TEXT
+January 1834: Gral. Baldomero Espartero takes charge of the liberal troops in Vizcaya; a competent and habile soldier, he would became famous.
+ENDTEXT
+CREATEUNIT
+unit=Espartero
+owner=Liberals
+veteran=yes
+homecity=none
+locations
+52,14
+45,33
+endlocations
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Espartero
+attacker=Carlists
+defender=Liberals
+@THEN
+TEXT
+General Espartero has been killed in action. He fought valerously with his own sabre 
+against outnumbered enemies before being slain. The liberals habe lost one of their
+youngest and most able leaders, and the carlists can now have a breath; the morale
+of the carlist troops rises and their financial support too.
+ENDTEXT
+CHANGEMONEY
+receiver=Carlists
+amount=1500
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+TEXT
+The British Legion, directed by General Lacy Evans, arrives to La Coruña to help 
+Liberals. They are volunteers without experience in combat, but they can be helpful. 
+Meanwhile, a Royal Navy squad arrives to Cantabric Coast.
+ENDTEXT
+CREATEUNIT
+unit=Frigate
+owner=British
+veteran=yes
+homecity=none
+locations
+52,4
+54,6
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+CREATEUNIT
+unit=Frigate
+owner=British
+veteran=yes
+homecity=none
+locations
+54,6
+52,4
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+CREATEUNIT
+unit=British Troops
+owner=Liberals
+veteran=no
+homecity=none
+locations
+17,13
+14,12
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+CREATEUNIT
+unit=British Troops
+owner=Liberals
+veteran=no
+homecity=none
+locations
+14,12
+17,13
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+CREATEUNIT
+unit=British Troops
+owner=Liberals
+veteran=no
+homecity=none
+locations
+15,13
+18,12
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+CREATEUNIT
+unit=British Troops
+owner=Liberals
+veteran=no
+homecity=none
+locations
+18,12
+15,13
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+CREATEUNIT
+unit=British Troops
+owner=Liberals
+veteran=no
+homecity=none
+locations
+16,14
+17,11
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=5
+@THEN
+CREATEUNIT
+unit=British Troops
+owner=Liberals
+veteran=no
+homecity=none
+locations
+17,11
+16,14
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+TEXT
+12th July 1834: Fired from Portugal, escaped from Britain, Carlos V crosses France 
+and enters in Spain; the Carlist morale is high. 
+Meanwhile, the liberal government approves the restoration of the "Urban Militia", 
+stablished by the Cadiz Constitution of 1812.
+ENDTEXT
+GIVETECHNOLOGY
+receiver=Liberals
+Technology=91
+CHANGEMONEY
+receiver=Carlists
+amount=500
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+56,16
+57,17
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+57,17
+56,16
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=16
+@THEN
+TEXT
+1835: Ramón Cabrera, an ex-seminarist, takes charge of the carlist troops in the region
+of the low Aragón; in spite of not being a career officer, he revealed as one of the most
+competents leaders in the war... but when the liberals executed his mother, he became the bloodthirsty "Maestrazgo Tiger".
+ENDTEXT
+CREATEUNIT
+unit=Cabrera
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+59,35
+60,34
+endlocations
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Cabrera
+attacker=Liberals
+defender=Carlists
+@THEN
+TEXT
+Today is a sad day for the carlists; Ramón Cabrera is dead. The temible warrior, the 
+Maestrazgo tiger, the nightmare of the liberals has been killed on action. The carlists
+of East Spain lost their brilliant leader and the liberals can now have a breath.
+ENDTEXT
+CHANGEMONEY
+receiver=Carlists
+amount=-1000
+@ENDIF
+
+@IF
+TURN
+turn=21
+@THEN
+TEXT
+10th June 1835: General Tomás de Zumalacárregui starts the siege of Bilbao. If the 
+Carlist Army conquers Bilbao, it could be the beginning of the victory.
+ENDTEXT
+CREATEUNIT
+unit=Zumalacárregui
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+54,14
+50,14
+53,13
+51,13
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=21
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+50,14
+54,14
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=21
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+53,13
+51,13
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=21
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+51,13
+53,13
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=21
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+53,15
+49,13
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=21
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+49,13
+53,15
+endlocations
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Zumalacárregui
+attacker=Liberals
+defender=Carlists
+@THEN
+TEXT
+Today is a sad day for the carlists; General Tomás de Zumalacárregui has died. 
+While he was directing the battle from his command post, a lost bulled injured 
+him at his leg. The wound was not important, but without adequate medical cares,
+Zumalacárregui finally dead. The carlist morale falls and the liberals celebrate
+the "retirement" of their genial enemy.
+ENDTEXT
+CHANGEMONEY
+receiver=Carlists
+amount=-1000
+@ENDIF
+
+@IF
+TURN
+turn=33
+@THEN
+TEXT
+26th June 1836: Carlist General Gómez Starts his Spanish 
+tour. It will amaze the world during almost 6 months.
+ENDTEXT
+@ENDIF
+
+@IF
+TURN
+turn=34
+@THEN
+TEXT
+5th July: General Gómez is at the gates of Oviedo.
+ENDTEXT
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+34,14
+33,15
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=34
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+33,15
+34,14
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=35
+@THEN
+TEXT
+20th-23rd August: Gómez attacks Palencia and Segovia.
+ENDTEXT
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+38,30
+36,30
+35,31
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=35
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+36,30
+38,30
+35,31
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=36
+@THEN
+TEXT
+10th-20th September: Gómez moves through Albacete and meets 
+liberal troops of Diego de León near Villarobledo.
+ENDTEXT
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+51,49
+52,50
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=36
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+52,50
+51,49
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=36
+@THEN
+CREATEUNIT
+unit=Regular Cav.
+owner=Liberals
+veteran=yes
+homecity=none
+locations
+55,49
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=36
+@THEN
+CREATEUNIT
+unit=Regular Cav.
+owner=Liberals
+veteran=yes
+homecity=none
+locations
+55,49
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=37
+@THEN
+TEXT
+1st October: Gómez achieved to scape to Andalusia and attacks Cordoba.
+ENDTEXT
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+36,60
+35,59
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=37
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+35,59
+36,60
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=39
+@THEN
+TEXT
+20th December: Gómez arrrives to Orduña, ending his incredible 
+touristic circuit. He arrives with the fruits of the plunder.
+ENDTEXT
+CHANGEMONEY
+receiver=carlists
+amount=600
+@ENDIF
+
+@IF
+TURN
+turn=44
+@THEN
+TEXT
+15th May 1837: Carlos V starts the royal expedition, heading Madrid.
+ENDTEXT
+@ENDIF
+
+@IF
+TURN
+turn=47
+@THEN
+TEXT
+24th August 1837:The royal expedition arrives to Madrid. The war can be at the end.
+ENDTEXT
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+44,30
+43,31
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=47
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+43,31
+44,30
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=47
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+48,32
+42,30
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=47
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+42,30
+48,32
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=47
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+47,29
+43,29
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=47
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+43,29
+47,29
+endlocations
+@ENDIF
+
+
+@IF
+TURN
+turn=47
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+47,31
+45,29
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=47
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+45,29
+47,31
+endlocations
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Bilbao
+attacker=Carlists
+defender=Liberals
+@THEN
+TEXT
+¡Bilbao is fallen! The wealthiest city of northern Spain belongs now to the
+Carlists. Now, Carlos V can receive economical support from British banks.
+ENDTEXT
+changemoney
+receiver=carlists
+amount=4000
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Barcelona
+attacker=Carlists
+defender=Liberals
+@THEN
+TEXT
+¡Barcelona is fallen! The "second capital" of Spain is now the most important city of Carlos V.
+ENDTEXT
+changemoney
+receiver=carlists
+amount=4000
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Madrid
+attacker=Carlists
+defender=Liberals
+@THEN
+TEXT
+¡Madrid is fallen! The capital city of the Spanish Crown welcomes to Carlos María
+Isidro de Borbón, now officially called Carlos V, King of Spain. María Cristina 
+flees to Portugal with the little Isabel, but her forces continue fighting.
+ENDTEXT
+JUSTONCE
+GIVETECHNOLOGY
+receiver=Carlists
+technology=90
+CHANGEMONEY
+JUSTONCE
+receiver=Carlists
+amount=5000
+JUSTONCE
+@ENDIF
+
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=90
+receiver=Carlists
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+45,33
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=90
+receiver=Carlists
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+45,33
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=90
+receiver=Carlists
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+45,33
+endlocations
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Estella
+attacker=Liberals
+defender=Carlists
+@THEN
+TEXT
+¡Estella is fallen! The capital city of Carlos María Isidro 
+finally falls. The financial support of the carlists collapses.
+ENDTEXT
+CHANGEMONEY
+receiver=Carlists
+amount=-5000
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=4
+@THEN
+TEXT
+Liberals receive help from Portuguese Army: Baron Das Antas arrives with troops.
+^
+Great Britain and France send economical help to liberals.
+ENDTEXT
+CREATEUNIT
+unit=Port. Troops
+owner=liberals
+veteran=yes
+homecity=none
+locations
+16,54
+endlocations
+changemoney
+receiver=Liberals
+amount=200
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+44,16
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+44,18
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+46,18
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+52,18
+endlocations
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+50,18
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+47,23
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+55,17
+endlocations
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+57,17
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+83,21
+endlocations
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+76,24
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+72,28
+endlocations
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+64,38
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+63,39
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+62,46
+endlocations
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+61,41
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+60,40
+endlocations
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+65,37
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+73,21
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+46,16
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=15
+@THEN
+CREATEUNIT
+unit=Carlist Troops
+owner=Carlists
+veteran=yes
+homecity=none
+locations
+52,16
+endlocations
+@ENDIF
+
+@IF
+NEGOTIATION
+talker=ANYBODY
+talkertype=HumanOrComputer
+listener=ANYBODY
+listenertype=HumanOrComputer
+@THEN
+@ENDIF
+
+@IF
+NOSCHISM
+defender=ANYBODY
+@THEN
+@ENDIF
+
+
+@IF
+TURN
+turn=72
+@THEN
+TEXT
+31th August 1839: With the Vergara Agreement, the war came to the end. Generals 
+Espartero and Maroto signed the peace. Cabrera continued with the war in the 
+East, but he had no posibilities to resist against the whole liberal army.
+ENDTEXT
+@ENDIF
+
+@IF
+TURN
+turn=3
+@THEN
+TEXT
+28th December 1833: María Cristina de Borbon, the regent queen, marries her 
+bodyguard Fernando Muñoz in a secret ceremony at the age of 27.
+ENDTEXT
+@ENDIF
+
+@IF
+TURN
+turn=11
+@THEN
+TEXT
+15th July 1834: The Spanish Inquisition is deffinitively dispersed by María Cristina.
+17th July 1834: The people of Madrid attack convents believing that the monks have 
+poisoned the water supply, causing an epidemy of cholera.
+ENDTEXT
+@ENDIF
+
+@IF
+TURN
+turn=19
+@THEN
+TEXT
+April 1835: Carlists and Liberals sign a treaty called the "Eliot Convention",
+trying to stablish the rules of an honorable war.
+ENDTEXT
+@ENDIF
+@ENDEVENTS
