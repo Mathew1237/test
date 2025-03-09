@@ -1,0 +1,90 @@
+Der Anstieg und der Fall des dritten Reich
+
+A scenario by John Petroski
+(May 23, 1999)
+
+"Ich schwöre bei Gott diesen heiligen Eid, daß ich dem Führer des Deutschen Reiches und Volkes Adolf Hitler, dem Oberbefehlshaber der Wehrmacht, unbedingten Gehorsam leisten und als tapferer Soldat bereit sein will, jederzeit für diesen Eid mein Leben einzusetzen."
+
+Introduction
+
+For those of you familiar with my previous scenario "The New Germany", you will be glad to here that this scenario is basically a huge remodeling of it.  Even though "The New Germany" got fairly high reviews from Scenario League and Plate-Head's site, upon further personal playtesting and reading on the subject of WW2, I found that my scenario was much to inaccurate for my own liking.  Thus, I have decided to divert my efforts to remaking this scenario, and hopefully, to establish itself as one of the best, if not the best WW2 Europe scenario available on the net (and with competition like Mike Jeszenka's Third Reich and Harlan Thompson's WW2 scenario it will be tough).
+
+This scenario is only for play as the Axis.  You will be able to find the Allied and Soviet scenarios online in a few months.  Keep checking back to your favorite scenario sites.  While playing you will notice that the Allies do not just let you carry out your evil work with no problem, they will be nipping at your heels like a terrier the entire scenario (unless you can eliminate them).
+
+Distribution, My Rules on It
+
+Please note that neither this scenario, or anything inside of it is copyrighted.  You may use ANY image or ideas that you want in your own scenarios and web sites.  All that I ask is that if you are indeed going to use my ideas and units, that you credit me in your read me.
+     If you want to have this scenario on your site, please just email me and tell me that you are putting it on your site.  You do not need my permission, just a letter telling me that you have indeed placed it on your site.  Also, you must include my name (John Petroski), and my Email address (Jpski7@aol.com) on the same page as the scenario.  Also, if you want this version on your site, you MUST agree to place future updates on your site as well (and get rid of the old scenario).  If you agree to these terms, you are free to place this scenario on your site.
+
+Requirements
+
+In order to play this scenario, you must have Civ2 Multiplayer Gold Addition (AKA Ultimate Civ2).  It simply will NOT work with any other version out at this point and I have NO intentions of making this scenario compatible with an earlier version, sorry.
+
+Installation
+
+To install this scenario, simply create a folder in the Civ2 scenario folder and name it "Fall."  Within that folder create a "sound" folder also.  Unzip the scenario files to the "Fall" folder and the sound files to the "sound" folder.  If you have not downloaded the sound as of yet, I highly recommend that you do so.  I have put a ton of time and effort into this scenario and I chose to make some brand new sounds for it as well to go the "whole nine yards" so to speak.  
+
+Mechanical Issues
+
+Multiple Events Files: This scenario is built to be the largest, most accurate, and hopefully best WW2 scenario available on the World Wide Web.  To accomplish this, I have elected to use multiple events files in the scenario so that I can have infinite possibilities.  You will be alerted via events as to when you should switch around the file.  To do this, save, and exit the game.  Once out of Civ2, find this scenario's file in your Civ2 directory.  Now, rename the "events" file to "oldevents1" and rename the "events2" file to "events".  Finally, drag your saved file over the program "delevent" that is included with the scenario.  Now simply re-enter the game, load your save, and begin to play again.  Repeat this process every time that the game tells you to change events but BE CAREFUL.
+
+Winter Rules/Terrain Files: To better simulate the terrible effect of fighting a war during the winter, this scenario features two sets of terrain files and rules files.  To change them, simply rename the rules file that you were currently using to something else, then rename the other rules file to "rules.txt." and play.
+
+Winter Units File: This is a purely "cosmetic" change, but I went ahead and drew snow on the units that would require it (none on planes and usually none on infantry) to better match the winter terrain and rules files that I have went ahead and made.  You change it by renaming it to units (but of course first rename the original units to something else).
+
+Bugs
+
+· For some strange reason a pop up box stating "The Soviets have discovered T-34/'43" pops up quite frequently.  Just ignore this box.
+
+· Likewise, you will notice that certain countries research the same thing (apparently) over, and over, and over again.  Well, it is not like it really matters anyway, they get most of their good techs via events and so you should not trouble yourself to much.
+
+· 
+
+
+
+
+Special Rules
+
+*  You will notice that you have special units such as the Heavy Water Plant, Oil Facilities, Krupp Steel Works, Work Camp Dora, and Factories.  Although their destruction will hinder your war effort significantly, you are NOT to simply disband them under ANY circumstances.  You of course, may defend them (and defend them heavily if you wish for them to stick around).
+
+*  Also, you are NOT to ever, EVER attack the Neutral nations, EVEN if THEY attack YOU (although this should be impossible).  If they do in fact attack you, just consider it "inside issues" in your government that require you to keep your defenses up all over your Empire.
+
+*  You will notice from time to time that the Allies launch major amphibious invasion against you.  The problem is that you move before them.  Therefor it is a house rule that you many not attack these units UNTIL they attack you for sure.  In real life, the Allies only won at Normandy because Hitler was asleep anyway and Panzer divisions were not released on time.  Consider yourself to have the same problem.
+
+*  You are not to have more then 5 defenders in ANY FRENCH CITY!
+
+ Major Changes from "The New Germany"
+
+Although my previous World War 2 scenario began right when the real war started, September 1939, I found that this lead to some serious inaccuracies to the player due to the AI's inability to "play by the book" shall we say.
+     Due to this, I have decided that the best time period to have this scenario start during would have to be May 1940, the German invasion of France.  Although I am saddened that my scenario has lost a bit of originality by doing this, I truly believe that it is in the scenario's best interests that this change be made.
+     Another thing that the player who is familiar with New Germany should be aware of is that I have elected to go with many more infantry units then I previously had and in order to do so I cut back on different types of aircraft. For example, there previously were 3 different Me109 fighters in the scenario alone!  I chose to do this because in this version of the scenario I wanted much more street fighting, especially in France, then I had in the previous versions.  Of course, everyone knows that you don't street fight with tanks and that you do it with infantry, thus, more are needed.  
+     As another change, the Bismarck is no longer available to the Axis.  It turns out that the event that I had for it never really worked anyway so I doubt that many of you will miss it.  In the previous version it was next to useless due to the fact that if you tried a naval bombardment, it would not work out without significant damage to the ship.  Since the first thing that most people do with a powerful ship is bombard, I left it out.  This scenario does not primarily focus on the Battle of the Atlantic anyway so it is not a necessary unit.
+     And now, for the most major change of the scenario - the map.  I chose this map because I wanted to focus primarily on the air and ground conflict of the Second World War rather then the naval conflict in the Atlantic (although I have tried my best to include it despite the map's shortcomings).  Since I wanted to focus mainly on the "continental battle", I chose the largest land massed map that I could find on the world-wide-web.  Another contributing factor to my choosing of this map was that although I did want a good sized accurate Europe map; I also did NOT want to use Mike Jeszenka's map that he used in his masterpiece "Third Reich".  I felt that I would lose any audience that I could ever hope to grab should I had used the same map that he did.  Besides, I am looking for creativity (the only way WW2 scenarios can survive).
+
+
+
+A Brief Overview of the Civilizations
+
+Axis (Fascism): The Axis at the start of the scenario have the most powerful, and most technologically advanced military in the world, and they will stay that way for the rest of the war unless something is done to prevent it.  I certainly hope that this scenario will have the Axis as more of a challenge to play then my previous version of "New Germany".  To do this I have simulated major Allied offensives and counter offensives in the hopes that they will stick the human playing as the Axis in a very precarious position for the majority of time.  Of course, there are certain measures that you can take to ensure that these invasions fail, but I would think that it would be more fun to let the Allies establish beacheads when they try and wait a few turns before attacking them.  This also might be a very good strategy anyway as it allows you to pool your reserves.
+     The Axis start off ready to invade France, which should prove to be a pushover for the most part.  The only trouble that they will have in the beginning stages of the war should be destroying the British Expeditionary force at Dunkerque, decisively defeating the Royal Air Force, and finally, the war in northern Afrika.  When playing as the Axis you will want to make sure that you take measures to ensure that all 3 of these objectives are met, or you could have a very hard time during the rest of the war.  
+     You will find when playing as the Axis that how you do in one stage of the war will tremendously affect another, perhaps very different stage of it.  For example, if you do very poorly when the Allies invade Italy, you will have a tougher time fighting on the Eastern and French front.  However, if you do very well on certain assignments and missions, you may be able to acquire better units and therefore have an easier time in the war.  A tech tree does not affect what technologies you get in this scenario, your actions do.  
+
+Allies (Democracy): Although under NO circumstances are you to play as the Allies in THIS version of this scenario, I feel that I should still tell you a bit about them, and what you can expect for them to do.
+     The Allies start off the scenario in a very precarious position.  They are about to lose France, much of their army at Dunkerque, and there is a good chance that their remaining forces in Norway will also be demolished.  There is however, hope.
+     When fighting the Allies you will find that you will have it easy in all aspects of war until you go and try to invade Britain.  You will most likely find the Royal Air Force to be a very formidable foe that will prove extremely hard to dispose of.  You will also find the Royal Navy, which outnumbers you TREMENDOUSLY, to be an extremely tough nut to crack.  And if you can not crack it, Britain will never fall.  
+     Time is of the essence though, and you MUST capture Britain FAST.  For every single turn that you do not capture her, she will receive a good amount of Canadian and British units that are just itching to make your war a living hell.  Also, eventually the United States and all her might will enter the war.  If the USA is allowed to ship units to England in preparation for D-Day, your reign is as good as over.  
+     Expect the Allies to conduct campaigns much the same way that they really did in the real war, and en mass.  The Allies will conduct Operation Crusader, Operation Torch, The invasion of Sicily, The Invasion of Italy, The Invasion of Normandy, and finally the Invasion of southern France known as Operation Typhoon.  It is up to you as Germany, to make sure that they fail at all of these invasions. 
+
+Soviets (Communism): Russia is, to put it simply, huge.  This is one of their two main advantages.  Their other main advantage is that they have the ability to produce #'s of units that the Axis will never be able to match.  When you invade Russia, you must throw at least 90% of your Armies into the initial thrust and make sure that you can secure large amounts of their territory before the T-34's start to show up.  If you do not kill off Russia within one year, you most likely will never finish them off.
+     One good thing about fighting Russia is that their T-34's will not appear until you capture the city that first saw them used in action (sorry, I am not going to tell you which one, read up on Barbarossa if you really want to know).  What this means however, is that if you plan your strategy well enough, you may be able to capture a ton of Soviet territory before they can react.  Hopefully, this will cripple the Soviets, but most of their industrialized cities lie in the Stalingrad area, not Moscow…
+     The Soviets in this scenario, much like the Allies, will attack you in much the same way that they did in real life.  For example, when you capture part of Stalingrad, you will meet extremely fierce resistance when you try and capture the rest of it.  Likewise, at certain times in the scenario, the Soviets will launch massive counterattacks with the aim of driving you out of their country for good.  The only way to prevent this from happening is to completely annihilate "The Bolshevik Jews" as Hitler called them.
+
+French (Republic): The French are doomed to fall, and will most likely do so within 3 turns (not due to a good defensive system, but rather because of a need for Germany to transport units across the entire country which takes time).  
+     The main thing about France is that if Germany manages to "capture" (kill) their ships, they will get them! To stop this the British must turn on their former Allies and destroy the French Fleet themselves! To simulate Vichy France, and the Allied actions against them, once Paris falls the Allies go to war vs. France.  I made this happen so that I could have Operation Torch be simulated even if Germany never does capture French North Afrika, and also so that the Allied Operations against the French-held Middle Eastern possessions can take place.
+     When attacking France as Germany do this: Ignore France until you destroy the British Expeditionary Force.  Germany won the Battle of France by encircling the British and French troops, not by capturing Paris.
+
+Yugoslavians (Monarchy): Mike Jeszenka was the first person (to my knowledge) to use Yugoslavia as a separate country in a WW2 Europe scenario.  I have taken his idea and used it.  Why?  Because it is a good idea! The Yugoslavian "incident" was one of those weird little things about WW2, and since I have unlimited events space, why not.  Besides, I don't really like the idea about having Turkey in this scenario (Yugoslavia takes their place) because it is basically a free road into southern Russia and to the Allied Controlled Middle East.
+
+Spanish (Fascism): Despite the fact that Hitler and Mussolini helped Francisco Franco out tremendously in the Spanish Civil War, Franco remains unsure as to whether he should commit his country, freshly out of a bloody civil war, into yet another conflict.  Perhaps a huge Axis victory over the British in the Mediterranean theater early in the war could convince him that he should join the winning side?  Or, could a huge British victory force him to reconsider his political position and turn on the Axis?  Or more likely, will he just remain neutral throughout the war's entirety?  Spain is an important wildcard, but to whom will it be dealt? 
+
+Neutrals (Democracy): The Neutrals exist only for trade (which will be needed to fuel your economies to prepare for a war time state).  They are not to be attacked under any circumstances nor are they to be played as under any circumstances.  If they attack you, defend your cities but do not capture theirs! Just consider them extra resistance fighters attacking you.

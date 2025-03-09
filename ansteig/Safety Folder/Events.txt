@@ -1,0 +1,1212 @@
+@BEGINEVENTS
+
+@IF
+NOSCHISM
+defender=ANYBODY
+@THEN
+@ENDIF
+
+@IF
+NEGOTIATION
+talker=ANYBODY
+talkertype=HumanOrComputer
+listener=ANYBODY
+listenertype=HumanOrComputer
+@THEN
+@ENDIF
+
+@IF
+TURN
+turn=1
+@THEN
+TEXT
+"Sichelshnitt" - Cut of the Sickle - On May 10th 1940, forty-five German divisions advanced
+through the lightly-defended Ardennes forest of the French defensive lines.  This move was timed
+to coincide with a massive feint by Army Group B that would smash into the Netherlands, thus
+bringing the British Expiditionary Force and the French army north so that Army Group A's
+Panzers could encircle, and destroy the Allied armies.
+ENDTEXT
+PLAYWAVEFILE
+THEME.WAV
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Brussles
+attacker=Axis
+defender=ANYBODY
+@THEN
+TEXT
+The Belgian defenders of Fort Eben Emael are caught completely by surprize by the German
+Fallschirmjaeger! The German paratroops were deliverd to the roof of the massive fortress by
+Junkers Ju52 Transport airplanes silently towing gliders, therefore gaining the initiative.  With only
+424 men, Captain Walther Koch manages to subdue the forts 1,100 man garrison!
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Lille
+attacker=Axis
+defender=French
+@THEN
+TEXT
+As Rundstedt's Army Group A drives onward into France they smash past local defences and
+manage to capture Lille! The British Expiditionary Force is in danger of being surrounded and
+driven into the sea! Meanwhile, back in the British Lines, The B.E.F. furiously digs in and awaits
+the coming assault...
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Dunkerque
+attacker=Axis
+defender=Allies
+@THEN
+TEXT
+After having relentlessly pounded the beleagured British Army at Dunkerque for a week from
+land and air, German Panzers begain their move to wipe out what was left of the B.E.F.
+Allthough they did manage to capture hundreds of prisoners, thousands did in fact manage to
+escape in small pleasure craft and other humble boats that the Admiralty requisitioned to save the
+Brits at Dunkerque.  The Allied troops that made it back to England now pose a huge threat to
+Nazi Germany.  But only, if England remains a free and independant country...
+ENDTEXT
+PLAYWAVEFILE
+FALL.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Amsterdam
+attacker=Axis
+defender=Allies
+@THEN
+TEXT
+Bock's triumphant Army Group B marches into Amsterdam.  The Capitol was eager to surrender
+after having seen first hand what happens to those who do not.  A few days before, the garrison
+at Rotterdam refused to surrender to Germany and was promptly bombed out of existence.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Vichy
+attacker=Axis
+defender=French
+@THEN
+TEXT
+Sueing for Peace, the old French government is ousted and a new Pro-German government is
+established with it's capitol in Vichy.  Fearful that the powerful French Battle Fleet might fall into
+Axis hands, Winston Churchill approves the destruction of any Vichy French ship that refuses to
+continue the war fighting for the Allies...  Should the French Fleet fall into German hands, the
+naval balance will shift tremendously...
+ENDTEXT
+MAKEAGGRESSION
+who=Allies
+whom=French
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Paris
+attacker=Axis
+defender=French
+@THEN
+TEXT
+The world is shocked at the deadly speed of the German 'Blitzkrieg', a term that Poland and
+France have come to learn oh too well.  Germany's latest Blitzkrieg has outdone even Hitler's
+wildest of expectations as the German Army captured Paris in a mere 6 weeks from the start of
+the invasion.
+While the French may have been defeated soundly, there were of course heroic actions,
+especially in the case of the Battleship Jean Bart.  Allthough under a massive Stuka attack while
+still in the St. Nazaire harbor, she managed to escape out through the U-Boat 'Gauntlet' in the
+Bay of Biscay and steamed into Casablanca.
+ENDTEXT
+PLAYWAVEFILE
+PARIS.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=St. Nazaire
+attacker=Axis
+defender=French
+@THEN
+TEXT
+With the capture of St. Nazaire, Admiral Doenitz has aquirred a very valuable port to service his
+U-Boats.  It has an accomodating port large enough for a Capitol ship, good access to the
+Atlantic, and a great view!
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+TURN
+turn=4
+@THEN
+TEXT
+August 13th, 1940: Hilter launches "Adlertag" or 'Eagle Day', the first day of major German
+bombings of England designed as the prerequisite for "Operation Sea Lion" - The invasion of
+Britain.  In order for the invasion to be a success, the Royal Air Force MUST be wiped clear of
+the skies over Britain...
+ENDTEXT
+PLAYWAVEFILE
+THEME.WAV
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+TEXT
+Erwin Rommel, along with the Afrika Korps, arrive in Tripoli to take the fight to the Allies in
+North Afrika.
+ENDTEXT
+CREATEUNIT
+unit=Axis General
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+59,129
+endlocations
+PLAYWAVEFILE
+THEME.WAV
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+CREATEUNIT
+unit=Pzr. Grenadier
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+59,129
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+CREATEUNIT
+unit=Panzer III
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+59,129
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+CREATEUNIT
+unit=Panzer III
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+59,129
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+CREATEUNIT
+unit=Panzer IV
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+59,129
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=10
+@THEN
+CREATEUNIT
+unit=Panzer IV
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+59,129
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=14
+@THEN
+TEXT
+On June 22nd 1941 Adolf Hitler launches the largest Blitzkrieg ever unleashead to this day
+apon the Soviet Unioun.  Operation "Barbarossa" is planned to take Moscow, Leningrad,
+Stalingrad, the Crimea, and the Caucasus.  Should he succed certainly nothing can stop the
+mighty German army.  Not even the United States of America.
+Over 3 million Men, 600,000 vehicles, and 3350 tanks massed along a 2000km frontier from
+the baltic to Black Sea participate in this invasion, the largest in history.  But will it succed??
+ENDTEXT
+PLAYWAVEFILE
+THEME.WAV
+MAKEAGGRESSION
+who=Axis
+whom=Soviet Union
+@ENDIF
+
+@IF
+TURN
+turn=12
+@THEN
+TEXT
+Due to Yugoslavia's non-compliance with German ambitions, Hitler launches Operation Strafe
+('Punishment').  This savage act catches the Yugoslavians completely by surprize! On April 6th,
+the skies over Belgrade darkend with German bombers.  The city would eventually be next to
+destroyed with 17,000 civilian deaths.
+ENDTEXT
+CREATEUNIT
+unit=Ju-88
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+79,89
+78,90
+endlocations
+PLAYWAVEFILE
+THEME.WAV
+MAKEAGGRESSION
+who=Axis
+whom=Yugoslavians
+@ENDIF
+
+@IF
+TURN
+turn=12
+@THEN
+CREATEUNIT
+unit=Ju-88
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+79,89
+78,90
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=12
+@THEN
+CREATEUNIT
+unit=Ju-88
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+79,89
+78,90
+endlocations
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Battleship
+attacker=Axis
+defender=French
+@THEN
+TEXT
+The Axis manage to capture a French Battleship! The newly appointed German Captain steers
+the Ship tward's Kiel.  The Admiralty is not in a good mood this evening...
+ENDTEXT
+CREATEUNIT
+unit=Battleship
+owner=Axis
+veteran=no
+homecity=NONE
+locations
+58,56
+endlocations
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Cruiser
+attacker=Axis
+defender=French
+@THEN
+TEXT
+The Axis succesfully capture a French Cruiser! They sail it to port at Kiel to link up with the rest
+of the Kriegsmarine.
+ENDTEXT
+CREATEUNIT
+unit=Cruiser
+owner=Axis
+veteran=no
+homecity=NONE
+locations
+58,56
+endlocations
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Destroyer
+attacker=Axis
+defender=French
+@THEN
+TEXT
+The Axis capture a French Destroyer! It is sailed to Kiel to fight the British from there...
+ENDTEXT
+CREATEUNIT
+unit=Destroyer
+owner=Axis
+veteran=no
+homecity=NONE
+locations
+58,56
+endlocations
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Battleship
+attacker=ANYBODY
+defender=Axis
+@THEN
+TEXT
+The Kriegsmarine losses one of their few Battleships in battle! This loss in irreplacable to the Axis
+as they can not construct any new ships of this class! The Axis lose 2000 Reichsmarks (gold)!
+ENDTEXT
+CHANGEMONEY
+receiver=Axis
+amount=-2000
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Type VII U-Boat
+attacker=Allies
+defender=Axis
+@THEN
+TEXT
+The Allied Convoys begin to take their deadly toll on the German U-Boats.  Germany losses 100
+Reichsmarks (gold).
+ENDTEXT
+CHANGEMONEY
+receiver=Axis
+amount=-100
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Landing Craft
+attacker=Axis
+defender=Allies
+@THEN
+TEXT
+Germany manages to destroy a shipment of US Lend-Lease tanks that were on their way to the
+Soviet Union, both the Russian and Allied economies suffer due to this.
+ENDTEXT
+CHANGEMONEY
+receiver=Soviet Union
+amount=-500
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Landing Craft
+attacker=Axis
+defender=Allies
+@THEN
+CHANGEMONEY
+receiver=Allies
+amount=-500
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+TEXT
+On November 7th 1942, more then 500 ships ranging from once-luxurious passenger liners to
+converted cargo crusiers were pressed into service to carry around 107,000 men and thousands
+of tons of supplies and to land them at landing beaches in Morroco and Algeria.
+These landings are planned to link up with British forces driving East out of Libya in an effort
+to push the Axis out of Afrika once and for all.  All that remains to be seen is will the French
+resist?
+LOAD THE NEXT PART OF THIS SCENARIO NOW!!!
+ENDTEXT
+CREATEUNIT
+unit=US Marines
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+1,115
+2,114
+4,114
+endlocations
+PLAYWAVEFILE
+THEME.WAV
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=US Marines
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+1,115
+2,114
+4,114
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Sherman
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+2,114
+1,115
+4,114
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Sherman
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+4,114
+2,114
+1,115
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=US Infantry
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+1,115
+4,114
+2,114
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Allied General
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+4,114
+2,114
+1,115
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Sherman
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+22,114
+25,113
+20,114
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Sherman
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+22,114
+25,113
+20,114
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Sherman
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+25,113
+22,114
+20,114
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Sherman
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+20,114
+25,113
+22,114
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=31
+@THEN
+CREATEUNIT
+unit=Sherman
+owner=Allies
+veteran=no
+homecity=NONE
+locations
+20,114
+22,114
+25,113
+endlocations
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Casablanca
+attacker=Allies
+defender=ANYBODY
+@THEN
+TEXT
+American Troops landing near Casablanca meet fierce French resistance! The Americans
+manage to secure the town but not until after a fire-fight with the Vichy French defenders.
+ENDTEXT
+PLAYWAVEFILE
+THEME.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Smolensk
+attacker=Axis
+defender=Soviet Union
+@THEN
+TEXT
+Guderian and Hoth's Panzers continue to smash Eastward in the hugely succesful Operation
+Barbarossa, but the going is begining to get tougher...  A new Soviet tank is spotted on the
+battlefield and all the German's shells simply bounce off of it's armour!
+ENDTEXT
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+102,50
+103,53
+104,52
+endlocations
+PLAYWAVEFILE
+THEME.WAV
+JUSTONCE
+GIVETECHNOLOGY
+receiver=Soviet Union
+technology=97
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Smolensk
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+103,53
+104,52
+102,50
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Smolensk
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+104,52
+102,50
+103,53
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Smolensk
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+103,53
+104,52
+102,50
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Smolensk
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+104,52
+103,53
+102,50
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=W. Stalingrad
+attacker=Axis
+defender=Soviet Union
+@THEN
+TEXT
+The German Sixth Army under comand of Von Paulus attacks and besieges ninety percent of the
+city of Stalingrad, but the remaining ten percent continues to fight on.  Meanwhile, Zhukov plans a
+major counteroffensive to knock the German army off their toes.
+ENDTEXT
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+128,66
+endlocations
+PLAYWAVEFILE
+THEME.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=W. Stalingrad
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+128,68
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=W. Stalingrad
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+128,70
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=W. Stalingrad
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=T-34'41
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+128,66
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=W. Stalingrad
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=Katyusha
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+128,66
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=W. Stalingrad
+attacker=Axis
+defender=Soviet Union
+@THEN
+CREATEUNIT
+unit=Katyusha
+owner=Soviet Union
+veteran=yes
+homecity=NONE
+locations
+128,66
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Athens
+attacker=Axis
+defender=Allies
+@THEN
+TEXT
+As the German Army moves into the Balkans and bails out the blundering Italians, the British
+evacuate much of their army to Crete for further debarkation to North Afrika.  Therefore, the
+Germans follow up the succesful invasion of Greece by an airborne assault on Crete lead by the
+Fallschirmjaeger.
+ENDTEXT
+CREATEUNIT
+unit=Fallschirm
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+89,121
+93,121
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Athens
+attacker=Axis
+defender=Allies
+@THEN
+CREATEUNIT
+unit=Fallschirm
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+89,121
+93,121
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Athens
+attacker=Axis
+defender=Allies
+@THEN
+CREATEUNIT
+unit=Fallschirm
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+89,121
+93,121
+endlocations
+PLAYWAVEFILE
+THEME.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Minsk
+attacker=Axis
+defender=Soviet Union
+@THEN
+TEXT
+Two Panzergruppens converge on Minsk in a large pincer movent behind the unfortunate
+defenders and completely annihilate the Soviet 3rd, 4th, and 10th armies.  Over 290,000
+prisoners are taken as well as 2,585 tanks, 1,449 guns, and 246 aircraft.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kiev
+attacker=Axis
+defender=Soviet Union
+@THEN
+TEXT
+Kiev falls, it's defender, General Kirponos is killed, and the German army capture over 500,000
+men, more then 750 tanks, and some 3,500 guns.  It has been a devastating invasion for Russia,
+but Germany is showing signs of slowing down.  Many weeks of hard advance under grueling
+conditions have taken their toll on the German tanks and try as they might, the advance is starting
+to slow down.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Moscow
+attacker=Axis
+defender=Soviet Union
+@THEN
+TEXT
+Army Group Center manages to capture Moscow! Although there is absolutely ferocious fighting
+to prevent the fall of the key city in Russia, the Wehrmacht proves to be much to difficult of an
+enemy to stop.
+ENDTEXT
+CHANGEMONEY
+receiver=Axis
+amount=5000
+PLAYWAVEFILE
+THEME.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Novgorod
+attacker=Axis
+defender=Soviet Union
+@THEN
+TEXT
+With their drive up the center halted, the Germans attempt to gain a way to Moscow from the
+North through Novgorod, and they so far have succeded!
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=London
+attacker=Axis
+defender=Allies
+@THEN
+TEXT
+Adolf Hitler's Germany has done the impossible to imagine, they have captured London.  The
+assault began with Hermann Goerings' Luftwaffe relentlessly pounding the Royal Air Force into
+submission.  In a mere six days it succeded in driving the RAF from southern England, and in a
+mere six weeks, they succeded in destroying every last plane that the RAF had made available.
+^
+This action was followed by a major air and sea invasion of the British mainland with the main
+landings at Portsmouth and Plymouth.  Despite galiant resistance by the mediocre British army
+and Home Gaurd, the Elite German forces pushed aside the defenders as soon as their tanks had
+made it ashore.
+^
+In a desperate attempt to stop the invasion, every single British warship available steemed directly
+into the narrow English channel and started to pummel the invasion force.  Although the Luftwaffe
+threw every Stuka available at them, the British warships did not try to defend themselves.
+Rather, they fired their anti-aircraft guns against the enemy transports instead.  By doing so, they
+had no chance of survival for themselves, but they hoped that their actions would save the British
+people.
+ENDTEXT
+PLAYWAVEFILE
+THEME.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Alexandria
+attacker=Axis
+defender=Allies
+@THEN
+TEXT
+Erwin Rommel, "The Desert Fox", has succeded in capturing British-held Egypt! The road to the
+Suez Canal, and more importantly, Syrian Oil, is wide open.
+^
+Due to the impressive show of Axis might in Northern Africa, Francisco Franco declares war on 
+the Allies!
+ENDTEXT
+PLAYWAVEFILE
+THEME.WAV
+MAKEAGGRESSION
+who=Spanish
+whom=Allies
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Factory
+attacker=ANYBODY
+defender=ANYBODY
+@THEN
+TEXT
+A succesful bombing run results in the defender's loss of 500 Reichsmarks!
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERDEFENDER
+amount=-500
+@ENDIF
+
+@IF
+TURN
+turn=13
+@THEN
+TEXT
+A Flying Officer in the Royal Air Force, Michael Suckling provides photographs of the Bismarck,
+Germany's pride of the Kriegsmarine, anchored in Kiors Ford! The Royal Navy is put on alert
+and the hunt is on!
+ENDTEXT
+CREATEUNIT
+unit=Battleship
+owner=Axis
+veteran=yes
+homecity=NONE
+locations
+55,37
+endlocations
+PLAYWAVEFILE
+THEME.WAV
+@ENDIF
+
+@IF
+TURN
+turn=-1
+@THEN
+CREATEUNIT
+unit=Canadians
+owner=Allies
+veteran=yes
+homecity=NONE
+locations
+36,60
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=14
+receiver=Axis
+@THEN
+GIVETECHNOLOGY
+receiver=Soviet Union
+technology=99
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=14
+receiver=Axis
+@THEN
+GIVETECHNOLOGY
+receiver=Allies
+technology=99
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=53
+receiver=Axis
+@THEN
+GIVETECHNOLOGY
+receiver=Soviet Union
+technology=98
+@ENDIF
+
+@IF
+TURN
+turn=-1
+@THEN
+CREATEUNIT
+unit=Resistance
+owner=Allies
+veteran=yes
+homecity=NONE
+locations
+41,85
+38,84
+35,85
+33,91
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=-1
+@THEN
+CREATEUNIT
+unit=Commando
+owner=Allies
+veteran=yes
+homecity=NONE
+locations
+61,35
+59,37
+57,39
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=-1
+@THEN
+CREATEUNIT
+unit=Resistance
+owner=Allies
+veteran=yes
+homecity=NONE
+locations
+33,91
+38,84
+35,85
+41,85
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=-1
+@THEN
+CREATEUNIT
+unit=Resistance
+owner=Allies
+veteran=yes
+homecity=NONE
+locations
+35,85
+38,84
+41,85
+endlocations
+@ENDIF
+
+@IF
+CITYTAKEN
+city=London
+attacker=Axis
+defender=Allies
+@THEN
+TEXT
+In an attempt to save what they could, the British have started to mass-transport every civilian
+that they can to Iceland to attempt to save them from Hitler's wrath.
+^
+President Roosevelt, seeing the need for immediate action, asks Congress to declare war on the
+German Reich.  Congress fully supports this movement, and by the end of the week the USA is
+fully in the war fighting to save what they can of Great Britain.
+^
+And in a last desperate act, a British BBC broadcaster casts aside the propoganda statement that
+Goebles has prepared for him, and screams with his dying breath, "GOD SAVE THE KING!"
+ENDTEXT
+JUSTONCE
+GIVETECHNOLOGY
+receiver=Allies
+technology=93
+@ENDIF
+
+@IF
+TURN
+turn=20
+@THEN
+PLAYWAVEFILE
+THEME.WAV
+GIVETECHNOLOGY
+receiver=Allies
+technology=93
+@ENDIF
+
+@ENDEVENTS

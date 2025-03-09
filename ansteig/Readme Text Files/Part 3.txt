@@ -1,0 +1,154 @@
+Strategy
+
+If you like to know what is going to help you out in the war, decipher this.  I would advise you not to though.
+
+Initial Strategy: Well, there is not much that you can do in the initial stages of the war, you are forced into attacking France.  The method that I suggest for attacking France and the Low Countries is to have your Luftwaffe fighters annihilate any opening resistance that you will find from a few French Home Guard units. While they are doing this, have your longer range bombers (Ju88s) bomb targets like Caen and Le Havre to soften up the defenses there.  Don't be afraid to take a few casualties, or for that matter, a lot of casualties.  You have great production capabilities and you should be able to replace your losses within 5 months (turns).  You also start off with a lot of money that can be used to buy some more factories in certain cities to improve their production.  
+     Once your Luftwaffe fighters and heavy bombers attack and destroy initial French defenses, you will want to send in your Stuka Bombers supported by your heaviest tanks to spearhead the assault against the British at Dunkerque.  Remember that Germany did not win the battle of France by capturing Paris, they wont the battle of French by surrounding the British Expeditionary Force and forcing them to evacuate back to England.  I highly prioritize the annihilation of the B.E.F. in all of the times that I have played this scenario and I highly suggest that you do the same.
+     Ok, so you have eliminated the B.E.F., taken out the initial French defenses, now what?  Well now it is time to turn your eyes towards the rest of France.  You should concentrate your forces and don't be afraid to mass them all in a certain "base city" for future attacks.  In this scenario France will most likely not fall completely in one turn.  It might actually take as many as three or even four turns drawing from the playtesting data.  Just remember that you have plenty of time to take France, just do it without constraining yourself, that is what is important.
+
+
+Why I Did What I Did
+
+In this section I will explain anything and everything that I can think of that may seem weird to you.  I am doing this so that for one thing, you the player are not confused, and secondly, so that you the player will not bother me by emailing me about things that are explained in here.  (If you get a sarcastic letter about people not spending 5 minutes to read a read me file even though I spend 5 hours typing them after you complain about something that is in here, this is why).  The below are in no particular order.
+
+I also would hope that Scenario League Reviews would take into account that I have accounted for all of these things, and therefore no points should be taken off for some things which in conventional scenarios would seem very improper.
+
+- The Königstiger and Tiger have the same attack because in real life they had the same gun.  The only difference with the Königstiger (King Tiger) is that it has a better defense due to its better-sloped and thicker armour to protect it.
+
+- The IS2 tank has a relatively low defense because of it's two gas tanks in a very dangerously exposed area which one stinking high caliber bullet might ignite!
+
+- Only infantry ignore city walls (or rather Tank defense) because it is to simulate how you NEED infantry to win in a street fight.  Tanks can be ambushed very easily in the narrow streets of Europe (just watch "Saving Private Ryan").  If you want to take a city, bombard the hell out of it with your bombers and guns and then send in the good old infantry teams.
+
+- The Panzer IV must be researched because it is not supposed to be the early war model (Panzer IVD), but rather a model such as the Panzer IVF2 or Panzer IVJ.  Since the latter models were not available early in the war, you must research for them.
+
+- I gave all the air units in the game very large attack and defense values because I only wanted other air units to kill them, not infantry units firing up 35,000 ft. with rifles! 
+
+- Likewise, I gave Battleships and Cruisers huge attacks because I am sick and tired of having situations where I would attack a machine gun with a Battleship and lose.  Now, the Battleship is almost guaranteed to win in this situation.  Also, although it can still be sunk, it will take a great deal of recourses and effort to send them to the bottom for good.
+
+- I let the Axis "keep" the French Naval ships that they killed because Germany came fairly close to capturing the French Fleet, and to keep it from falling into German hands the British even attacked the Free French Fleet themselves!
+
+- I tried to give this scenario a larger focus on the resistance movements because it is one of the most fascinating (and overlooked) parts of WW2.  You will find that they pop up in Norway and France from time to time.
+
+- The United States is only featured by one city which is meant to represent the US and Canada.  It's production and trade boosts are huge, and many units, initially Canadian, and then later US, arrive their every single turn ready to be shipped over to Britain.
+
+- The Quattara Depression extends too far south then it really does because I did not want the Germans, or the Allies for that matter to invade each other from it's south.  I want all the fighting to take place to its north.
+
+- I represented the city of Stalingrad into two parts, East, and West.  This is because the Germans occupied very large portions of the city during the monumental battle but could not manage to capture it entirely.  See if you can do better then Von Paulus could.
+
+- B-17's are pretty hard to kill because they bristled with 13 heavy defensive machine guns, had so much armour that if you were willing to stick with it, it would get you home alive, and finally because they flew in defensive boxes for mutual protection.  (Think about 130 machine guns shooting at you instead of just 13)!
+
+- Russia and Germany (And various other countries) start out Allied simply to eliminate the possibility of a sneak attack until it historically occurred.  
+
+- The fortress East of Scotland in the water is supposed to be Scapa Flow.  You can safely stack sea units there without fear of losing multiple ones of them.  
+
+- Only German medium and heavy tanks (with the exception of the Panther) lose maneuverability in the winter.  This is because these tanks did not have very wide tracks and therefore they quite easily sank into the mud and became immobilized.  
+
+- The P-51D Mustang has a very good defence but an average attack (for a fighter) because I wanted it to be used primarily as an escort for Allied bombers rather then an attack plane.  You will also notice that it can go the exact same range as the B-17 which means that you can escort them to the farthest target that they can reach and back.  As Germany, you will notice that bombers alone are very hard to destroy (takes one veteran FW, two non-veteran FW's most of the time).  If you thought that they were hard to destroy without escort, try tackling them with an escort! Nigh on impossible! You are almost sure to lose quite a few planes trying to do this!
+
+- You will notice that during winter in Africa there is snow on parts of the ground.  Please just ignore it.  YES, I know that it is there.  I would change the terrain there but unfortunately there are not enough terrain types in Civ2 to do this with.  I figured that it was more important to get the oil and industrialized terrain all set rather then have the African terrain look proper.  Think about it, all that it does is make it look a little funny for a few turns.
+
+- You will also notice that some cities have TREMENDOUS food production that will result in their population skyrocketing.  This is to show how hundreds of thousands of refugees fled the countryside and came to the bigger cities for work, food, and shelter.  Please do not mark off points for this if you are a Scenario League Reviewer as this was fully intentional.
+
+Credits and Acknowledgments
+
+	I would like to say that I thank MP for making Civ2, but I really don't.  They really fucked some of us over the past few years and I say to hell with them.  Besides, I sincerely believe that the Civ2 community has done much more for the game then they ever did.  (We make much better scenarios as well).
+
+- Thanks first and foremost to Harlan Thompson for making his WW2 Europe scenario. This is really the reason why I think that many WW2 designers chose to develop this field.  I know that I personally have snatched a few ideas from his scenarios.
+
+- Thanks to Mike Jeszenka for hours of invaluable playtesting and also for making his WW2 masterpiece "Third Reich", without which, I would have never ever remade this scenario - wait a minute, should I really be thanking him for this?
+
+- Many thanks to all the nice web masters who have allowed my humble scenario to be featured on their site.
+
+- Thanks to Mike Jeszenka for making some of the units for this scenario as well (they are labeled "MJ" in the units file).  He is a great scenario maker and has helped me out a ton in the making of this scenario.  If you ever need some assistance, you should drop him an email.  Oh yes, if you downloaded this scenario from his site and it did not work properly, EMAIL ME! I can not tell you of the countless times that he has told me that people complain about my work to him! Please folks; give this guy a break!
+
+- Many of the city improvement icons were taken from Cam Hill's "Gangster" scenario.  They are truly magnificent wouldn't you say?
+
+- Thanks to Dan Meadow for his MANY, MANY hours of playtesting this scenario over and over, and over again until he felt that it was publishable.  He is the only person that I know who has the mentality.
+
+- I'm not sure who made this map, but I am very grateful for their having done it.  It is perhaps the most accurate Europe map out there.
+
+- Mike Jeszenka made the explosion graphic.
+
+- Some text was taken from http://www.uwm.edu/People//jpipes/start.html.  It is a great site full of WW2 facts that you should look up for your WW2 scenarios.
+
+- Thanks to Andrew P. Livings for compiling a collection of city screens on his web site.  The city icon that is featured in this scenario was found in that collection.
+
+- Not all of the text in this read me is my own.  I have borrowed many texts specifically unit texts from various games and web-sites because they said exactly what I wanted to say better, and it would cut back on the amount of time that is required to put this read me together. 
+
+- Thank you to Mark Laanen.  He was the guy who did the most in-depth playtesting on this scenario, and without him, many, many bugs would have gone unnoticed.  For instance, he informed me that the Frankfurt in my scenario was the small, unimportant one and thus I should change its size down a little! This was just one of the many things that he did for the playtesting and without him this scenario would not work to put it frankly.
+
+- Captain Nemo and Alex "The Magnificent" created some of the advancement icons originally for their scenario 2,194 Days.
+
+Who Did What In This Scenario
+
+In this section I am going to further acknowledge those who helped in this scenario by saying exactly what each person did in it (excluding myself).
+Dan Meadow: 
+- Created the Factory, Krupp Steel Works, and Oil Facilities units.
+- Extensively playtested scenario under numerous variations until I got it "right".
+- Gave such ideas as "invisible anti aircraft".
+
+Mike Jeszenka: 
+- Created the B-17 unit.
+- Created the explosion graphic.
+- Gave the idea to make the Matilda tank larger.
+- Playtested this scenario.
+- Gave me the idea to have Axis and Allied Generals
+- Gave me the idea for Yugoslavia as a separate country.
+- Helped me out with playtesting the scenario via email in multiplayer mode.
+
+Mark Lannon: 
+- Put in many hours of playtesting.
+- Told me to make a reference to exactly which model of the Panzer IV I was depicting so as to cause the least amount of confusion.
+- Gave me a lot of advice on how to improve the scenario on a whole.
+- Noticed that I had made the small, unimportant Frankfurt rather then the large, important one.
+
+Harlan Thompson: 
+- Emailed me the Panzer General 2 units file from which I got most of my tank graphics.
+- Emailed me the Operational Art of War units file from which I took the Artillery, 88mm Gun, T-34'43, and Katyusha units from.
+- Gave critical advice, which has shaped the way that the events were structured to favor the opposing player.
+- Gave me the motivation to make my WW2 scenario better then his J 
+
+Alex Mor: 
+- Created the Commandos, Waffen SS, US Marines, US Infantry, UK Infantry, and Soviet infantry.  I am eternally grateful for these units, even though he and I have had our troubles, he still can draw great units!
+- Created (I presume) the icons for some of my advances which he used in his scenario "2,194 Days of War".  This scenario is without doubt the best WW2 WORLD scenario out there, until of course, I make one J.
+- I took the fortress unit from his "2,194 Days of War" scenario.
+
+Captain Nemo:
+- He MODIFIED Tatu Ahponene's unit which I used as my Sturmtruppen unit (although he did NOT properly credit Tatu.  I have added Tatu's signature onto the unit.
+- He created the Fallschirmjaeger unit, which is featured in my scenario.
+- I took the fortress unit from his "2,194 Days of War" scenario.
+
+Andrew P. Livings: 
+- On his site there is a collection of good city screens, one of which being the one that is featured in my scenario.
+
+Cam Hills: 
+- Some of the city improvements that I have used in this scenario were used originally in his masterpiece "Gangster"
+
+Jesús Balsinde: 
+- Created a few city icons that were used in this scenario
+
+Allard H.S. Höfelt: 
+- Created the Allied General unit that is in this scenario
+
+
+Other Great WW2 Scenarios 
+
+Axis & Allies by Alex Mor and Captain Nemo
+Third Reich by Mike Jeszenka
+Rising Sun by Mike Jeszenka 
+WW2, European Theatre by Harlan Thompson 
+WW2, Pacific Theatre by Harlan Thompson
+WW2, China by Harlan Thompson
+Up The Deadly Boot by myself, John Petroski (Jpski7@aol.com)
+
+
+
+
+
+
+
+
+
+
+
+

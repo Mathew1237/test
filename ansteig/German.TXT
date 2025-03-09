@@ -1,0 +1,25 @@
+@SCENARIO
+@width=500
+@title=%STRING0
+^^Length: %STRING1 to %STRING2
+^
+^^"Anything that can be communicated verbally should never be put in writing."
+^    -Adolf Hitler 
+^
+^May 10th, 1940: The Nazi Juggernaut is about to be unleashed apon France
+^and the low countries.  Three German Armies totaling 157 divisions
+^take place in the invasion.  France would fall six weeks later.  A 
+^hopeless disgrace.  From here on, you must command the Axis military
+^machine and destroy the UK, and the USSR.  BE WARNED, FAILURE TO DO 
+^SO QUICKLY WILL HAVE CATASTROPHIC RESULTS.
+^
+^Recommended: Axis                       
+^
+^Under No Circumstances: Everyone else
+^
+^
+^^SPECIAL NOTES
+^You really must read the readme or else you will be lost.
+^
+@end -- this line must be here!
+
