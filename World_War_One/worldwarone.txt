@@ -1,0 +1,76 @@
+@SCENARIO
+@width=400
+@title=WORLD WAR ONE - THE WAR TO END ALL WARS
+^^THE TIME: October 1914.
+^^THE PLACE: Europe, the Middle East and the Atlantic.
+^^THE MISSION: Lead your country through World War One.
+^^
+@listbox6
+@options
+TIME LINE
+%
+FOLLOWING the outbreak of the war in June and July 1914 the
+main powers mobilised their armies to fight against their
+enemies. "The war will be over before the leaves fall",
+Wilhelm II shouted at his soldiers in August 1914. Now it is
+October and Germany lost the first round. The Schlieffen Plan
+has failed and it seems to be a dark first winter: On the
+Western Front the soldiers made up positions nearly impossible
+to penetrate and the Russian Steamroller stands at the borders
+of Prussia though Germany has won the Battle of Tannenberg
+and Germany큦 allies, the weak Habsburg Monarchy desperately
+tries to defend the Carpathians to secure the Hungarian Low
+Lands and Serbia is still alive.
+%
+THE MAIN POWERS
+%
+RUSSIAN EMPIRE - The Steamroller - playable
+Allied with France for years the Russian Empire sent its
+vast forces westwards. Russia has the world큦 largest army
+but the niveau of the recruits is not too high and the
+Tsarist Regime just survived a Bolshevik Insurrection
+in 1905, only a few years ago ...
+%
+AUSTRIA-HUNGARY - Middle Europe큦 Warden - playable
+The old Habsburg Empire declared war upon Serbia on
+June 28 asking for german aid. Now it seems that the Austrian
+Army stands between two front lines as well as Germany. Can
+you hold the empire together?
+%
+GERMAN EMPIRE - Perfect Militarism - playable
+The ally of Franz Josef, Wilhelm II, wanted to gain a fast
+and furious victory over France. This has not happenend
+because Great Britain stands along with France and Russia.
+Now Germany stands between the Western Allies and the Russian
+Steamroller. Can you turn the tide?
+%
+OTTOMAN EMPIRE - The Weak Man at the Bosporus - playable
+As the title says, the glorious days of the once famous
+Ottoman Empire are long gone. Only Germany stands side by
+side with the Turkish Sultan and its minor ally, Bulgaria,
+who are covering the Balkan flank and controlling the main
+supply route of Russia, the Bosporus Strait.
+%
+UNITED STATES - The Sleeping Giant - playable
+The American President Woodrow Wilson has no interest in
+the war that Europe큦 major powers are fighting for supremacy
+but the American Economy wants the USA to join the war to
+increase their wealth though the US Army is no match for
+the European Armies ...
+%
+ENTENTE CORDIALE - France and Great Britian - playable
+Never this had happened before: Great Britain and France are
+standing side by side against the German Struggle for
+Supremacy. The small British Expeditionary Force played an
+important role in the Battle of the Marne in September 1914.
+Can the German Juggernaut be overthrown?
+%
+ITALY
+The Kingdom of Italy was bound to Germany and Austria-Hungary
+before the outbreak of the war a few months ago but the Italian
+Government gambles high and only enters the war for substantial
+loans and territories though the Italian Army is not prepared.
+%
+No Pollution - No Government Switching - Research and Survive ...
+View the Readme file for additional information!
+@end -- this line must be here!

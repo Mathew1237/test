@@ -1,0 +1,1148 @@
+;
+; Events text for "World War One" scenario
+; Stephan Sander - 21 July 2003
+;
+
+@BEGINEVENTS
+
+@IF
+NEGOTIATION
+talker=ANYBODY
+talkertype=HumanOrComputer
+listener=ANYBODY
+listenertype=HumanOrComputer
+@THEN
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=85
+receiver=Entente cordiale
+@THEN
+TEXT
+^Following the advice from Winston Churchill the Royal Navy launches an attack at the
+^Bosporus Strait.
+^
+^"The great venture has at last been launched, and the entire fleet of warships and transports is
+^now steaming slowly towards the shores of Gallipoli. As the huge liners steamed through the
+^fleet, their decks yellow with khaki, the crews of the warships cheered them on to victory, while
+^the bands played them out with an unending variety of popular airs. The soldiers in the
+^transports answered the last salutation from the Navy with deafening cheers, and no more
+^inspiring spectacle has ever been seen than ^this, of the last crusade setting forth for better or
+^worse." Daily Mail
+ENDTEXT
+CREATEUNIT
+unit=British Army
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+189,113
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=85
+receiver=Entente cordiale
+@THEN
+CREATEUNIT
+unit=ANZAC Troops
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+189,113
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Skopje
+attacker=ANYBODY
+defender=ANYBODY
+@THEN
+TEXT
+^After the fall of Serbia the Joint Allied Military Command decides to launch an offensive
+^against Austria and Turkey "as fast as possible" and send some troops to Saloniki.
+ENDTEXT
+CREATEUNIT
+unit=Field Artillery
+owner=Entente cordiale
+veteran=yes
+homecity=NONE
+locations
+175,95
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Saloniki
+attacker=Entente cordiale
+defender=ANYBODY
+@THEN
+TEXT
+^After the occupation of Saloniki massive reinforcements are sent to Greece to "convince" the
+^greek government to join the Allies.
+ENDTEXT
+CREATEUNIT
+unit=British Army
+owner=Entente cordiale
+veteran=yes
+homecity=NONE
+locations
+175,95
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=ATHINAI
+attacker=Entente cordiale
+defender=ANYBODY
+@THEN
+TEXT
+^Due to serious military threats the Greek government declared war against Germany and ^its
+Allies. The Greek Army reinforces its new Allies!
+ENDTEXT
+CREATEUNIT
+unit=Greek Infantry
+owner=Entente cordiale
+veteran=yes
+homecity=NONE
+locations
+175,95
+177,101
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=ROMA
+attacker=ANYBODY
+defender=Italy
+@THEN
+TEXT
+^Rome, the eternal city and capital of Italy, has fallen! It seems that the war is over for Italy!
+ENDTEXT
+CHANGEMONEY
+receiver=Italy
+amount=-2500
+JUSTONCE
+@ENDIF
+
+
+@IF
+CITYTAKEN
+city=ST. PETERSBURG
+attacker=German Empire
+defender=Russian Empire
+@THEN
+TEXT
+^The city of Tsar Peter the Great has fallen to the advancing German Army! The Tsar escaped
+^but it is said that Russia would quit the war as fast as possible.
+ENDTEXT
+CHANGEMONEY
+receiver=Russian Empire
+amount=-2500
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=WASHINGTON
+attacker=ANYBODY
+defender=United States
+@THEN
+TEXT
+^A dark day for world-wide democracy as the White House is stormed! The US Army is
+^fleeing in despair and confusion...
+ENDTEXT
+CHANGEMONEY
+receiver=United States
+amount=-2500
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=85
+receiver=Entente cordiale
+@THEN
+CREATEUNIT
+unit=Freight Ship
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+189,113
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=81
+receiver=United States
+@THEN
+TEXT
+^After months of growing tensions between the United States and the German Empire President
+^Wilson today asked the Congress to declare war against the German Empire.
+^
+^"No covenant of cooperative peace that does not include the peoples of the New World can
+^suffice to keep the future safe against war; and yet there is only one sort of peace that the peoples
+^of America could join in guaranteeing. The elements of that peace must be elements that engage
+^the confidence and satisfy the principles of the American governments, elements consistent with
+^their political faith and with the practical convictions which the peoples of America have once for
+^all embraced and undertaken to defend." Woodrow Wilson
+ENDTEXT
+MAKEAGGRESSION
+who=United States
+whom=German Empire
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=67
+receiver=Entente cordiale
+@THEN
+TEXT
+^After a secret meeting held in England representatives of the Italian government agreed to enter
+^the war in return for financial help and the granting of land currently under the control of
+^Austria-Hungary. The Treaty of London resulted in Britain granting an immediate loan of £50
+^million and a promise to support Italian territorial demands after the war.
+ENDTEXT
+MAKEAGGRESSION
+who=Italy
+whom=Austria-Hungary
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=67
+receiver=Entente cordiale
+@THEN
+CHANGEMONEY
+receiver=Italy
+amount=2000
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Smolensk
+attacker=ANYBODY
+defender=Russian Empire
+@THEN
+TEXT
+^Unable to defend his coutry against its marching enemies first riots against Nicholas II and the
+^monarchy spread in the country.
+ENDTEXT
+JUSTONCE
+GIVETECHNOLOGY
+receiver=Russian Empire
+technology=76
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+TEXT
+^Failing to gain victory against its enemies the Russian Government is under heavy pressure
+from the streets of the great cities .....
+^
+^"There are people who assert that the Ministers are at fault. Not so. The country now realizes
+^that the Ministers are but fleeting shadows. The country can clearly see who sends them here.
+^To prevent a catastrophe the Tsar himself must be removed, by force if there is no other way."
+^Alexander Kerensky
+ENDTEXT
+CREATEUNIT
+unit=Infantry
+owner=Neutrals
+veteran=no
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+RANDOMTURN
+denominator=3
+CREATEUNIT
+unit=Red Army
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+RANDOMTURN
+denominator=3
+CREATEUNIT
+unit=Red Army
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+RANDOMTURN
+denominator=3
+CREATEUNIT
+unit=Red Army
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+RANDOMTURN
+denominator=3
+CREATEUNIT
+unit=Red Army
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+RANDOMTURN
+denominator=3
+CREATEUNIT
+unit=Red Cavalry Regiment
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+RANDOMTURN
+denominator=3
+CREATEUNIT
+unit=Red Cavalry Regiment
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=76
+receiver=Russian Empire
+@THEN
+RANDOMTURN
+denominator=3
+CREATEUNIT
+unit=Red Cavalry Regiment
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+187,41
+186,40
+187,37
+195,51
+198,52
+196,54
+endlocations
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=49
+receiver=German Empire
+@THEN
+TEXT
+^The Admirality promised the German High Command that the Unrestricted Submarine War
+^would force Great Britain to surrender to the might of German weapons.
+^
+^"We will frighten the British flag off the face of the waters and starve the British people until
+^they, who have refused peace, will kneel and plead for it." Wilhelm II
+ENDTEXT
+CREATEUNIT
+unit=U-93 Class
+owner=German Empire
+veteran=no
+homecity=NONE
+locations
+154,62
+156,58
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=49
+receiver=German Empire
+@THEN
+CREATEUNIT
+unit=U-93 Class
+owner=German Empire
+veteran=no
+homecity=NONE
+locations
+121,57
+124,74
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=49
+receiver=German Empire
+@THEN
+CREATEUNIT
+unit=U-93 Class
+owner=German Empire
+veteran=no
+homecity=NONE
+locations
+72,64
+64,84
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=84
+receiver=Entente cordiale
+@THEN
+TEXT
+^The Royal Admirailty decides that the best way to slow down the german war effort would be
+^a Sea Blockade cutting down the import of important goods and raw materials.
+ENDTEXT
+CREATEUNIT
+unit=Destroyer
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+142,42
+144,40
+147,39
+149,37
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Verdun
+attacker=German Empire
+defender=Entente cordiale
+@THEN
+TEXT
+^The strategic valueless city of Verdun falls to the german invaders and the morale of the french
+^armies is seriously damaged.
+ENDTEXT
+CREATEUNIT
+unit=German Army
+owner=German Empire
+veteran=yes
+homecity=NONE
+locations
+153,69
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Paris
+attacker=German Empire
+defender=Entente cordiale
+@THEN
+TEXT
+^Paris in Flames! The German Army managed to capture the capital of France! Kaiser Wilhelm II
+^hinself came to Paris to watch the victory parade. Never since decades an enemies army has
+^entered the city. The French High Command orders its last troops to hold on to the Loire River.
+ENDTEXT
+CREATEUNIT
+unit=French Army
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+146,72
+148,76
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=London
+attacker=German Empire
+defender=Entente cordiale
+@THEN
+TEXT
+^London fell to the advancing German Army! After a surprise landing german troops have
+^captured the capital of the British Empire! The Royal Family and the Government escaped and
+^vowed to fight until the bitter end.
+ENDTEXT
+CREATEUNIT
+unit=British Army
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+140,56
+141,57
+139,61
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Berlin
+attacker=Russian Empire
+defender=German Empire
+@THEN
+TEXT
+^The Russian Army has reached its main objective: Berlin. The remnants of the German ^Eastern
+^Front should be no obstacle to the mighty Russian Army marching Unter den Linden ...
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=WIEN
+attacker=ANYBODY
+defender=Austria-Hungary
+@THEN
+TEXT
+^Vienna, the capital of the Austro-Hungarian Empire has fallen! The collapse of the Habsburg
+^Empire is expected to take place very, very soon.
+ENDTEXT
+CREATEUNIT
+unit=Infantry
+owner=Neutrals
+veteran=no
+homecity=NONE
+locations
+173,79
+177,77
+161,71
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Budapest
+attacker=ANYBODY
+defender=Austria-Hungary
+@THEN
+TEXT
+^Budapest, the second capital of the Habsburg Empire has fallen. Many front soldiers are
+^deserting to get back home and protect their families. The history of Austria-Hungary seems to
+^be nearly over .....
+ENDTEXT
+CREATEUNIT
+unit=Infantry
+owner=Neutrals
+veteran=no
+homecity=NONE
+locations
+173,79
+177,77
+167,71
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Ravenna
+attacker=Austria-Hungary
+defender=Italy
+@THEN
+TEXT
+^After their breakthrough in the mountains Austrian troops have managed to capture Ravenna.
+^The Italian North-East Front no longer exists. France and Britain decide to send reinforcements
+^to Italy to support its ally.
+ENDTEXT
+CREATEUNIT
+unit=French Army
+owner=Italy
+veteran=no
+homecity=NONE
+locations
+157,83
+158,84
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Trieste
+attacker=Italy
+defender=Austria-Hungary
+@THEN
+TEXT
+^The Italian Army has reached its main objective, Trieste. From all over Italy new recruits join
+^the victorious Italian army.
+ENDTEXT
+CREATEUNIT
+unit=Italian Army
+owner=Italy
+veteran=no
+homecity=NONE
+locations
+162,82
+159,81
+165,81
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Innsbruck
+attacker=Italy
+defender=Austria-Hungary
+@THEN
+TEXT
+^the Italian Troops have not only secured the Brenner but also captured the heartland of the
+^Habsburg Monarchy, Tyrol. From all over Italy new recruits join the victorious Italian army.
+ENDTEXT
+CREATEUNIT
+unit=Italian Army
+owner=Italy
+veteran=no
+homecity=NONE
+locations
+162,82
+159,81
+161,77
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Przemysl
+attacker=Russian Empire
+defender=Austria-Hungary
+@THEN
+TEXT
+^The Russian Army captured the Fortress of Przemysl opening the narrow routes through the
+^Carpathian Mountains that lead to the Hungarian Plains. Despite all the costs, this is a decisive
+^victory! Austrian Emperor Franz Josef asks Germany for immediate help and the so-called "Beskiden
+^Korps" is created.
+ENDTEXT
+CREATEUNIT
+unit=German Army
+owner=Austria-Hungary
+veteran=yes
+homecity=NONE
+locations
+187,72
+179,71
+178,70
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Königsberg
+attacker=Russian Empire
+defender=German Empire
+@THEN
+TEXT
+^The Russian Army stormed the citadel of the Hohenzollern Dynasty, Königsberg. All territory
+^east of the Wistula River is now lost for Germany. Wilhelm II orders his troops to retake the
+^city and defeat the invaders.
+ENDTEXT
+CREATEUNIT
+unit=German Army
+owner=German Empire
+veteran=no
+homecity=NONE
+locations
+170,56
+169,57
+169,55
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Warsaw
+attacker=German Empire
+defender=Russian Empire
+@THEN
+TEXT
+^The German Army captured Warsaw and has occupied vast territories belonging to the
+^Russian Empire. The result of this offensive can not be neglected by the Russian Armies
+^attacking Austria-Hungary.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Riga
+attacker=German Empire
+defender=Russian Empire
+@THEN
+TEXT
+^The German Army captured Riga and stands now at the Düna River. If the German Armies
+^advance further the capital of Russia, St. Petersburg, is seriously threatened!
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kiev
+attacker=German Empire
+defender=Russian Empire
+@THEN
+TEXT
+^Kiev taken! Tons of needed supplies and raw materials are now available for Germany!
+ENDTEXT
+CHANGEMONEY
+receiver=German Empire
+amount=2000
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Istanbul
+attacker=Entente cordiale
+defender=Ottoman Empire
+@THEN
+TEXT
+^Bosporus Strait is finally open for allied supplies! The Sultan flees eastwards!
+ENDTEXT
+CHANGEMONEY
+receiver=Russian Empire
+amount=2000
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Basra
+attacker=Entente cordiale
+defender=Ottoman Empire
+@THEN
+TEXT
+^The Allies have launched an offensive against the Ottoman Empire in the Persian Gulf!
+^Reinforcements are underway!
+ENDTEXT
+CREATEUNIT
+unit=Ottoman Army
+owner=Ottoman Empire
+veteran=no
+homecity=NONE
+locations
+210,122
+210,118
+210,114
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Jerusalem
+attacker=Entente cordiale
+defender=Ottoman Empire
+@THEN
+TEXT
+^Palestine liberated! Lord Curzon promises the creation of a National Home for the Jews!
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Baku
+attacker=Ottoman Empire
+defender=Russian Empire
+@THEN
+TEXT
+^Turkish Troops are on their way crossing the Caucasus and have captured Baku!
+ENDTEXT
+CHANGEMONEY
+receiver=Russian Empire
+amount=-1000
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Sofia
+attacker=ANYBODY
+defender=Ottoman Empire
+@THEN
+TEXT
+^Germany´s smallest ally, Bulgaria, is dropping out of the conflict as its capital was occupied by
+^foreign troops. It seems that the tides have changed ....
+ENDTEXT
+CHANGEMONEY
+receiver=German Empire
+amount=-1000
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=BEOGRAD
+attacker=Austria-Hungary
+defender=Entente cordiale
+@THEN
+TEXT
+^The capital of Serbia, Beograd, was taken and sacked by the advancing Austrian Army. Now
+^the situations is more than desperate for France´s small ally ....
+ENDTEXT
+CREATEUNIT
+unit=Austrian Army
+owner=Austria-Hungary
+veteran=yes
+homecity=NONE
+locations
+176,86
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=CETINJE
+attacker=Austria-Hungary
+defender=Entente cordiale
+@THEN
+TEXT
+^Austria annexes the small county of Montenegro and addes its troops to the victorious ^Austria
+Army.
+ENDTEXT
+CREATEUNIT
+unit=Austrian Army
+owner=Austria-Hungary
+veteran=yes
+homecity=NONE
+locations
+173,91
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=BUCURESTI
+attacker=Austria-Hungary
+defender=ANYBODY
+@THEN
+TEXT
+^Coup d´état in Romania! After the fall of Bucuresti the Romanian government escaped and
+^declared war upon the Central Powers!
+ENDTEXT
+CREATEUNIT
+unit=Romanian Infantry
+owner=Russian Empire
+veteran=no
+homecity=NONE
+locations
+184,82
+185,83
+185,85
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+TURN
+turn=20
+@THEN
+TEXT
+^Easter Monday, 1916: A small and bewildered crowd of people gather outside the GPO Building
+^in Dublin, as P.H. Pearse and other members of the 'provisional government' reads the Irish
+^Declaration of Independence and proclaims a Republic. Across the city, members of the Irish
+^Volunteers seize key government installations and wait for the inevitable British counterattack...
+ENDTEXT
+CREATEUNIT
+unit=Infantry
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+132,60
+131,59
+132,58
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+TURN
+turn=20
+@THEN
+ENDTEXT
+CREATEUNIT
+unit=Infantry
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+132,60
+131,59
+132,58
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+TURN
+turn=20
+@THEN
+ENDTEXT
+CREATEUNIT
+unit=Infantry
+owner=Neutrals
+veteran=yes
+homecity=NONE
+locations
+132,60
+131,59
+132,58
+endlocations
+JUSTONCE
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=4
+@THEN
+TEXT
+^ANZAC troops have reached India!
+ENDTEXT
+CREATEUNIT
+unit=ANZAC Troops
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+248,156
+240,142
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^A new unit of Colonial Infantry has completed its training!
+ENDTEXT
+CREATEUNIT
+unit=Tirailleurs d´Afrique
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+157,107
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^Another company of King´s African Rifles has completed its training!
+ENDTEXT
+CREATEUNIT
+unit=King´s African Rifles
+owner=Entente cordiale
+veteran=no
+homecity=NONE
+locations
+189,147
+endlocations
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^The British Empire increases the war effort!
+ENDTEXT
+CHANGEMONEY
+receiver=Entente cordiale
+amount=1000
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^US Economy increases the american war effort!
+ENDTEXT
+CHANGEMONEY
+receiver=United States
+amount=1000
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^A convoy has reached Murmansk!
+ENDTEXT
+CHANGEMONEY
+receiver=Russian Empire
+amount=1000
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^New War Bonds raised in Germany!
+ENDTEXT
+CHANGEMONEY
+receiver=German Empire
+amount=1000
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^War Effort increases in the Habsburg Monarchy!
+ENDTEXT
+CHANGEMONEY
+receiver=Austria-Hungary
+amount=1000
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^New War Bonds raised in Italy!
+ENDTEXT
+CHANGEMONEY
+receiver=Italy
+amount=1000
+@ENDIF
+
+@IF
+RANDOMTURN
+denominator=6
+@THEN
+TEXT
+^Germany increased its aid for the Ottoman Empire!
+ENDTEXT
+CHANGEMONEY
+receiver=Ottoman Empire
+amount=1000
+@ENDIF
+
+@ENDEVENTS

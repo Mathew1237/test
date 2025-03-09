@@ -1,0 +1,628 @@
+;
+;   CIVILIZATION GAME DATA
+;   Copyright (c) 1995 by MicroProse Software
+;
+;   This file can be altered at your own risk to change
+;   the rules of the game.  Keep in mind that altering the
+;   contents of this file may cause your game to malfunction,
+;   particularly if you use values outside the specified
+;   ranges.
+;
+
+;
+;   Cosmic Principles
+;
+;   The following numbers control various key rules
+;   of the game.  GREAT discretion is advised if you
+;   opt to change these.  Values too far out of the
+;   expected range can cause the game to behave strangely.
+;
+@COSMIC
+4       ; Road movement multiplier
+1       ; 1 in x chance Trireme lost (mod. by Seafaring, Navigation)
+3       ; # of food each citizen eats per turn
+20      ; # of rows in food box (rows * city_size+1 = box)
+20      ; # of rows in shield box
+1       ; Settlers eat (govt <= Monarchy)
+3       ; Settlers eat (govt >= Communism)
+2       ; City size for first unhappiness at Chieftain level
+6       ; Riot factor based on # cities (higher factor lessens the effect)
+6       ; Aqueduct needed to exceed this size
+14      ; Sewer System needed to exceed this size
+99      ; Tech paradigm (higher # slows research)
+80      ; Base time for engineers to transform terrain (x2)
+0       ; Monarchy  pays support for all units past this
+0       ; Communism pays support for all units past this
+0       ; Fundamentalism pays support for all units past this
+50      ; Communism is equivalent of this palace distance.
+50      ; Fundamentalism loses this % of science
+66      ; Percent shield penalty for production type change
+6       ; Max paradrop range
+75      ; Mass/Thrust paradigm (increasing slows spaceship time)
+8       ; Max effective science rate in fundamentalism (x10, so 5 = 50%)
+
+;
+;   Civilization Advances
+;
+;   Ai Value, Civilized Modifier, Preq1, Preq2, Epoch, Category
+;
+;     Ai Value = Basic value at which computer players
+;                view this advance (used in determining
+;                which discovery to pursue, which to
+;                acquire during exchanges, and value of
+;                gift during diplomacy).
+;     Modifier = Modifier to value based on the "civilized"
+;                aspect of a leader's personality.  Positive
+;                values increase value for civilized leaders,
+;                decrease it for militaristic.  Negative
+;                values vice versa.
+;     preq1, preq2 = Prerequisites
+;
+;     Epoch = historical period
+;             0 = Ancient
+;             1 = Renaissance
+;             2 = Industrial Revolution
+;             3 = Modern
+;
+;     Category = Knowledge category
+;             0 = Military
+;             1 = Economic
+;             2 = Social
+;             3 = Academic
+;             4 = Applied
+;
+@CIVILIZE
+Aircraft Research I,	5, 0,  Ato, nil, 2, 3    ; AFl		0
+State Schools,		3, 1,  nil, nil, 1, 4    ; Alp
+Ship Design I,		8,-2,  nil, nil, 2, 2    ; Amp
+Zeppelin Construction,	4, 0,  Fli, U2,  0, 0    ; Ast
+Aviation,		3,-1,  Fli, nil, 2, 3    ; Ato
+United States,		6, 0,  no,  no,  1, 2    ; Aut		5
+Regional Trade,		5, 1,  nil, nil, 2, 1    ; Ban
+Bridge Building,    	4, 0,  nil, nil, 2, 1    ; Bri
+Battle Gas,		4,-1,  Che, nil, 2, 4    ; Bro
+Ship Design II,		3, 0,  Amp, nil, 2, 2    ; Cer
+Chemical Warfare,	3, 0,  Cor, nil, 2, 4    ; Che		10
+Cavalry Regiments,	8,-2,  nil, nil, 2, 0    ; Chi
+Ship Design IV,		6, 1,  Cmb, nil, 2, 2    ; CoL
+Chemistry,		2,-2,  nil, nil, 2, 1    ; CA 
+Ship Design III,	5, 0,  Cer, nil, 2, 2    ; Cmb
+not used,		1, 0,  no,  no,  2, 2    ; Cmn		15
+Chemical Industry,	3,-2,  CA,  nil, 2, 1    ; Cmp
+Conscription,       	7,-1,  nil, nil, 2, 0    ; Csc
+Fortification Design,	7,-2,  nil, nil, 2, 0    ; Cst
+Chemical Research,	4, 0,  Cmp, FP,  2, 3    ; Cor
+National Economics,	6, 1,  Ban, nil, 2, 1    ; Cur		20
+not used,          	1, 2,  no,  no,  2, 2    ; Dem
+International Trade,	5, 1,  Cur, nil, 2, 1    ; Eco
+War Economy,		6, 0,  FP,  nil, 2, 1    ; E1 
+US Foreign policy,	4, 1,  no,  no,  1, 2    ; E2 
+Ship Design V,		4, 0,  CoL, nil, 2, 2    ; Eng		25
+War Bonds,		1, 0,  E1,  nil, 2, 1    ; Env
+Triplane Design,	1,-1,  Gen, Too, 2, 3    ; Esp
+Aircraft Research II,	5, 0,  AFl, Gen, 2, 3    ; Exp
+Bureaucracy,        	4, 1,  nil, nil, 2, 4    ; Feu
+Aeronautics,		5,-1,  nil, nil, 2, 3    ; Fli		30
+not used,             	1,-2,  no,  no,  2, 2    ; Fun
+War Effort,		4, 1,  nil, nil, 2, 0    ; FP 
+Biplane Design,		5, 0,  Hor, nil, 2, 3    ; Gen
+Communist Revolution,	5,-1,  no,  no,  1, 3    ; Gue
+Industrialization,	3,-2,  nil, nil, 2, 1    ; Gun		35
+Monoplane Design,	1,-2,  AFl, nil, 2, 3    ; Hor
+Impossible Tech,  	6, 0,  no,  no,  2, 1    ; Ind
+Steel Helmet,		4, 0,  Lit, nil, 2, 0    ; Inv
+Steel Industry,		2, 0,  Lab, SE,  2, 1    ; Iro
+Heavy Industry,		3, 0,  Gun, nil, 2, 1    ; Lab		40
+Arms Research I,	2,-2,  FP,  nil, 2, 2    ; Las
+General Staffs,		5,-1,  nil, nil, 3, 3    ; Ldr
+Improved Equipment,	5, 2,  Las, nil, 2, 3    ; Lit
+Arms Research II,	6, 0,  Las, nil, 2, 4    ; Too
+Naval Tactics,		6,-2,  nil, nil, 2, 0    ; Mag		45
+Submarine Design I,	6, 0,  Mag, Cmb, 2, 2    ; Map
+Submarine Design II,	3, 1,  Map, nil, 2, 2    ; Mas
+Submarine Design III,	5, 0,  Mat, nil, 2, 2    ; MP 
+Total Submarine War,	4,-1,  Mas, U2,  2, 0    ; Mat
+Mobile Warfare Theory,	3, 0,  Chi, nil, 3, 0    ; Med		50
+Armored Vehicles,	7,-2,  Med, Min, 3, 0    ; Met
+Arms Research III,	5,-2,  Too, nil, 2, 0    ; Min
+not used,		2,-2,  no,  no,  1, 3    ; Mob
+Electrification,	1,-2,  Gun, nil, 2, 1    ; Mon
+Aviation Tactics,	3, 1,  Ato, nil, 2, 3    ; MT 		55
+Bomber Command,		4, 0,  MT,  nil, 2, 3    ; Mys
+Ship Design VI,		8,-2,  Eng, Plu, 2, 2    ; Nav
+Arms Research IV,	6,-2,  Min, nil, 2, 2    ; NF 
+Air Forces,		7, 0,  Sth, nil, 2, 3    ; NP 
+Religion,		3, 1,  nil, nil, 1, 4    ; Phi		60
+Imperialism,		5,-1,  nil, nil, 2, 2    ; Phy
+Colonialism,		3,-1,  nil, nil, 2, 1    ; Pla
+Carrier Aviation,	1,-1,  MT,  NF,  2, 3    ; Plu
+Tank Construction,     	5,-1,  Pot, nil, 3, 0    ; PT 
+Tank Design,	   	2, 1,  Met, nil, 3, 0    ; Pot		65
+not used,		5,-2,  no,  no,  2, 0    ; Rad
+London Secret Treaty,	6, 0,  Tra, Wri, 1, 1    ; RR 
+Total War Effort,	3, 1,  Env, nil, 2, 1    ; Rec
+Refining,		4, 0,  Gun, nil, 2, 1    ; Ref
+Fertilizers,		7, 1,  Cmp, nil, 2, 1    ; Rfg		70
+Parliamentary Democracy,2, 1,  nil, nil, 0, 3    ; Rep
+Colonial Troops,	8,-2,  nil, Csc, 2, 0    ; Rob
+Artillery Design I,	1,-2,  Csc, Iro, 3, 1    ; Roc
+Artillery Design II,	4, 2,  Roc, Las, 3, 1    ; San
+Siege Artillery,	7, 0,  San, Min, 3, 1    ; Sea		75
+Russian Revolution,	1, 0,  no,  no,  3, 2    ; SFl
+Bomber Construction,	3, 0,  Mys, nil, 2, 3    ; Sth
+Steel Processing,	4, 0,  Gun, nil, 2, 1    ; SE 
+Wilson´s 14 Points,	4, 0,  Tac, nil, 1, 2    ; Stl
+Peace Movement,		8,-1,  Rec, nil, 3, 2    ; Sup		80
+USA: Declaration of War,5,-1,  The, nil, 1, 2    ; Tac
+Pressure upon Germany,	1, 0,  no,  no,  1, 2    ; The
+Economic Warfare,	1, 0,  FP,  nil, 2, 1    ; ToG
+Sea Blockade,		8, 2,  ToG, Wri, 1, 1    ; Tra
+Dardanelles Expedition,	6, 2,  Tra, nil, 1, 1    ; Uni		85
+Ottoman Empire,		5,-2,  no,  no,  0, 2    ; War
+Russian Empire,		1,-2,  no,  no,  1, 3    ; Whe
+Entente cordiale,	4, 2,  no,  no,  1, 1    ; Wri
+Modern Age,		1, 0,  no,  no,  3, 2    ; FT 
+Austria-Hungary,	1, 0,  no,  no,  0, 1    ; U1 		90
+German Empire,		1, 0,  no,  no,  0, 0    ; U2 
+Kingdom of Italy,	1, 0,  no,  no,  1, 0    ; U3 
+Not Russian,		1, 0,  no,  no,  3, 4    ; X1 
+Not German,		1, 0,  no,  no,  3, 4    ; X2 
+Not Allied,		1, 0,  no,  no,  3, 4    ; X3 		95
+Not American,		1, 0,  no,  no,  3, 4    ; X4 
+Not Austrian,		1, 0,  no,  no,  3, 4    ; X5 
+Not Ottoman,		1, 0,  no,  no,  3, 4    ; X6 
+Not Italian,		1, 0,  no,  no,  3, 4    ; X7		99
+
+;
+; Above 11 tech slots (U1 to X8) allow you to define your own 
+; civilization advances if desired.  Supply the name, the AI 
+; value, and the prerequisites.
+;
+; Then use the "U1", "U2", etc. 
+; identifier to incorporate it into the tech chain as a
+; prerequisite for other techs, units, city improvements.
+;
+
+;
+;  City Improvements
+;
+;   cost(x10), upkeep, preq
+;
+@IMPROVE
+Nothing,		 1, 0,    nil,
+Seat of Government,	40,10,    Feu,
+Military Compound,	50, 5,    Csc,
+Food Rationing,		10, 1,    Rec,
+Hospital,		12, 4,    Feu,
+Bank,			10, 1,    Ban,
+State School,		10, 1,    Alp,
+Military Administration,20, 4,    Phy,
+Fortifications,		15, 0,    Cst,
+Sewer System,		12, 2,    Cst,
+Trade Enactments,	16, 4,    Cur,
+House of God,		12, 1,    Phi, 
+Military Academy,	16, 3,    Csc,
+Railway System,		16, 4,    Iro, 
+Total War Effort,	20, 3,    Rec,
+Industrial District,	20, 4,    Gun,
+Heavy Industries,	32, 6,    Lab,
+not used,		20, 4,    no,
+Supply Storage,		20, 2,    FP,
+Oil Refinery,		16, 4,    Ref,
+Gas Power Plant,	24, 4,    Mon, 
+not used,		16, 2,    no,
+Stock Exchange,		16, 4,    Eco,
+Subway System,		16, 6,    Mon,
+Fertilizer Factory,	 8, 3,    Rfg,
+Labour Service,		20, 5,    Env,
+Research Facilities,	16, 3,    Too,
+not used,		10, 2,    no,
+Coastal Fortress,	 8, 1,    Cst,
+Transformer Station,	32, 4,    Mon,
+Fishing Industry,	 6, 1,    nil,
+Industrial Port,	16, 3,    Gun,
+Airport,		16, 3,    AFl,
+Newspapers,		20, 4,    Rep,
+Naval Compound,		 8, 3,    Cer,
+not used,		 8, 0,    no,
+not used,		16, 0,    no,
+not used,		32, 0,    no,
+War Bonds,		60, 0,    Env,
+US Farming,		20, 0,    Aut,
+German Unification,	20, 0,    nil,
+New York Stock Exchange,20, 0,    nil,
+Hochseeflotte,		20, 0,    nil,
+Physikalisches Institut,20, 0,    nil,
+Battle Field Medicine,	60, 0,    Lit,
+US Isolationism,	20, 0,    nil,
+Deutschlands Armee,	20, 0,    nil,
+Krupp Stahl Werke,	20, 0,    nil,
+International Diplomacy,60, 0,    Sup,
+Italian Unification,	20, 0,    nil,
+Chemical Weapon Plant,	60, 0,    Che, 
+Royal Navy,		20, 0,    nil,
+Zarskoje Selo,		20, 0,    nil,
+Suez Channel,		20, 0,    nil,
+Orthodox Church,	20, 0,    nil,
+Air Force Academy,	60, 0,    NP,
+US Aid,			60, 0,    Uni,
+Habsburg Dynasty,	20, 0,    nil,
+Statue of Liberty,	20, 0,    nil, 
+Bosporus Control,	20, 0,    nil, 
+Newspaper Control,	60, 0,    Tac, 
+US War Effort,		60, 0,    Tac, 
+Kaiser Wilhelm Kanal,	20, 0,    nil, 
+League of Nations,	40, 0,    Stl, 
+British Empire,		20, 0,    nil,
+whatever,		60, 0,    no,
+Total Submarine War,	60, 0,    Mat,
+
+;
+; Expiration advancements for Wonders of the World
+;
+@ENDWONDER
+nil,        ; US Farming
+nil,        ; German Unification
+nil,        ; New York Stock Exchange
+Mat,        ; Hochseeflotte
+Phy,        ; Physikalisches Institut
+nil,        ; Battle Field Medicine
+Mat,        ; US Isolationism
+Rec,        ; Deutschlands Armee
+nil,        ; Krupp Stahl Werke
+nil,        ; International Diplomacy
+nil,        ; Italian Unification
+nil,        ; Chemical Weapon Plant
+nil,        ; Royal Navy
+nil,        ; Zarskoje Selo
+FP,         ; Suez Channel
+nil,        ; Orthodox Church
+nil,        ; Air Force Academy
+Tac,        ; US Aid
+FP,         ; Habsburg Dynasty
+E2,         ; Statue of Liberty
+nil,        ; Bosporus Control
+nil,        ; Newspaper Control
+nil,        ; US War Effort
+FP,         ; Kaiser Wilhelm Kanal
+nil,        ; League of Nations
+nil,        ; British Empire
+nil,        ; whatever
+Tac,        ; Total Submarine War
+
+;
+;    Unit Types
+;
+; until, domain,  move,rng,  att,def  hit,firepwr  cost,hold,  role, preq,  flags
+;
+; until       = Civ advance which renders unit obsolete
+; Move        = Movement rate (spaces per turn)
+; Range       = # of turns fuel carried (0 for non-air units)
+;
+; domain      = Movement domain of unit
+:               0 = Ground
+;               1 = Air
+;               2 = Sea
+;
+; att         = Attack factor (chance to score hit attacking)
+; def         = Defense factor (chance to score hit defending)
+; hit         = Hit points (damage x10 which can be taken before elimination)
+; firepwr     = # damage points caused per hit scored on enemy.
+;
+; cost        = Cost (# of shield rows, usually of 10 shields each)
+; hold        = # of holds on ship (for carrying units)
+;
+; role        = AI role (Generally affects the way in
+;               which computer players use the unit, but
+;               roles >= 5 will actually affect abilities
+;               of the unit)
+;               0 = Attack
+;               1 = Defend
+;               2 = Naval Superiority
+;               3 = Air Superiority
+;               4 = Sea Transport
+;               5 = Settle
+;               6 = Diplomacy
+;               7 = Trade
+;
+; preq        = Prerequisite advance
+;
+; "Flags" control special advantages & restrictions.  Not
+; all of these flags "make sense" for all types of units
+; (paradropping ships, for instance).  Nonsensical variations
+; may produce bizarre effects (or worse).  You were warned.
+;
+;                                         Two space visibility = 000000000000001
+;                                      Ignore zones of control = 000000000000010
+;                                 Can make amphibious assaults = 000000000000100
+;                           Submarine advantages/disadvantages = 000000000001000
+;                              Can attack air units (fighters) = 000000000010000
+;                           Ship must stay near land (trireme) = 000000000100000
+;                                Negates city walls (howitzer) = 000000001000000
+;                                Can carry air units (carrier) = 000000010000000
+;                                           Can make paradrops = 000000100000000
+;                         Alpine (treats all squares as roads) = 000001000000000
+;                         x2 on defense versus horse (pikemen) = 000010000000000
+;                   Free support for fundamentalism (fanatics) = 000100000000000
+;                         Destroyed after attacking (missiles) = 001000000000000
+;                      x2 on defense versus air attack (AEGIS) = 010000000000000
+;                                     Unit can spot submarines = 100000000000000
+;
+@UNITS
+Infantry,		nil, 0,  1.,0,  3a,5d,  8h,2f,  6,0,  1, nil, 000000001000000
+Swiss Army,		nil, 0,  1.,0,  0a,9d,  8h,4f,  6,0,  1, no,  010010001000000
+German Army,		Inv, 0,  1.,0,  7a,6d,  8h,2f,  6,0,  0, U2,  000000001000000
+French Army,		Inv, 0,  1.,0,  6a,6d,  8h,2f,  6,0,  0, Wri, 000000001000000
+Russian Army,		Inv, 0,  1.,0,  4a,6d,  8h,2f,  4,0,  0, Whe, 000000001000000
+US Army,		nil, 0,  1.,0,  6a,6d,  8h,2f,  6,0,  0, Aut, 000000001000000
+Italian Army,		Inv, 0,  1.,0,  5a,6d,  8h,2f,  6,0,  0, U3,  000000001000000
+Red Army,		nil, 0,  1.,0,  6a,5d,  8h,2f,  4,0,  0, no,  000000001000000
+Ottoman Army,		Inv, 0,  1.,0,  6a,5d,  8h,2f,  6,0,  0, War, 000000001000000
+not used, 	   	nil, 0,  0.,0,  1a,1d,  1h,1f,  1,0,  1, no,  000000000000000
+Austrian Army,		Inv, 0,  1.,0,  5a,6d,  8h,2f,  6,0,  0, U1,  000000001000000
+Field Artillery,	nil, 0,  1.,0, 20a,2d,  2h,7f,  8,0,  0, Roc, 000000000000000
+German Army,		X2,  0,  1.,0,  7a,7d,  8h,2f,  8,0,  0, Inv, 000000001000000
+French Army,		X3,  0,  1.,0,  6a,7d,  8h,2f,  7,0,  0, Inv, 000000001000000
+Russian Army,		X1,  0,  1.,0,  5a,6d,  8h,2f,  4,0,  0, Inv, 000000001000000
+US Army,		X4,  0,  1.,0,  6a,7d,  8h,2f,  8,0,  0, Inv, 000000001000000
+Austrian Army,		X5,  0,  1.,0,  6a,6d,  8h,2f,  8,0,  0, Inv, 000000001000000
+Italian Army,		X7,  0,  1.,0,  6a,6d,  8h,2f,  8,0,  0, Inv, 000000001000000
+Ottoman Army,		X6,  0,  1.,0,  6a,6d,  8h,2f,  8,0,  0, Inv, 000000001000000
+Ulan Regiment,		X2,  0,  2.,0,  6a,4d,  6h,2f, 10,0,  0, Chi, 000000000000000
+Dragoon Regiment,	X3,  0,  2.,0,  5a,4d,  6h,2f, 10,0,  0, Chi, 000000000000000
+Siege Artillery, 	nil, 0,  1.,0, 40a,1d,  4h,6f, 30,0,  0, Sea, 000000001000000
+Spahi Regiment,		X6,  0,  2.,0,  4a,4d,  6h,2f, 10,0,  0, Chi, 000000000000000
+Dreadnought Class,	nil, 2,  7.,0,30a,25d, 10h,8f, 45,0,  2, Eng, 000000000000000
+Ship of Line,		nil, 2,  6.,0,25a,15d,  9h,7f, 40,0,  2, CoL, 000000000000000
+Destroyer,	  	nil, 2, 10.,0,  9a,7d,  7h,4f, 16,0,  2, Cer, 100000000001001
+Cruiser,	  	nil, 2,  9.,0,13a,11d,  8h,6f, 22,0,  2, Cmb, 000000000001001
+Aircraft Carrier,	nil, 2,  8.,0, 0a,15d, 10h,3f, 30,0,  2, Nav, 000000010000000
+Coastal Submarine,	nil, 2,  4.,0,  7a,3d,  3h,2f, 12,0,  2, Map, 000000000101000
+High Sea Submarine,	nil, 2,  6.,0, 10a,4d,  3h,4f, 14,0,  2, Mas, 000000000001000
+U-93 Class,		nil, 2,  9.,0, 17a,7d,  7h,6f, 10,0,  2, Mat, 000000000001000
+Sub Hunter,		X3,  2, 10.,0,  7a,5d,  5h,3f, 20,0,  2, Nav, 100000000001000
+Battlecruiser,		nil, 2,  9.,0,25a,15d, 10h,6f, 35,0,  2, Eng, 000000000001001
+Monoplane,		Exp, 1,  4.,1,  2a,2d,  1h,1f, 10,0,  3, Hor, 000000000000001
+Sopwith Camel,		X3,  1,  6.,1,  9a,7d,  2h,4f, 12,0,  3, Gen, 000000000010001
+Biplane,		nil, 1,  6.,1,  6a,5d,  2h,4f, 12,0,  3, Gen, 000000000010001
+Fokker Dr.I,		X2,  1,  7.,1,  8a,8d,  2h,4f, 14,0,  3, Esp, 000000000010001
+Nieuport 17,		X3,  1,  6.,1,  8a,8d,  2h,4f, 13,0,  3, Exp, 000000000010000
+Zeppelin,		nil, 1,  7.,2, 15a,2d,  2h,4f, 14,0,  0, Ast, 000000000000000
+Handly Page D/100,	X3,  1,  9.,2, 20a,4d,  3h,5f, 18,0,  0, Sth, 000000000000000
+Gotha G-V,		X2,  1,  8.,2, 18a,4d,  3h,4f, 18,0,  0, Sth, 000000000000000
+Armored Vehicle,	nil, 0,  2.,0, 10a,5d,  4h,3f, 14,0,  0, Met, 000010000000000
+Mark V Tank,		X3,  0,  2.,0, 13a,9d,  5h,4f, 14,0,  0, PT,  000010000000000
+A7V PzKpfw,		X2,  0,  2.,0, 12a,9d,  4h,4f, 20,0,  0, PT,  000010000000000
+MG Position,		nil, 0,  1.,0,  0a,9d,  6h,4f,  8,0,  1, Ldr, 000010000000000
+Sturmtruppen,		X2,  0,  2.,0, 10a,7d,  8h,2f, 14,0,  0, Med, 000000001000010
+7.62cm IG L16.5,	nil, 0,  1.,0, 12a,2d,  2h,6f, 14,0,  0, San, 000000001000000
+ANZAC Troops,		nil, 0,  1.,0,  7a,6d,  8h,2f,  8,0,  0, no,  000000001000000
+Kaiserjäger,		nil, 0,  1.,0,  9a,7d,  8h,2f, 16,0,  0, U1,  000001001000000
+Alpini,			nil, 0,  1.,0,  9a,7d,  8h,2f, 16,0,  0, U3,  000001001000000
+Tirailleurs d´Afrique,	Wri, 0,  1.,0,  6a,6d,  8h,2f,  6,0,  0, Rob, 000000001000000
+3.7cm Field Gun,	nil, 0,  1.,0,  7a,2d,  2h,4f, 10,0,  0, Roc, 000000001000000
+Battle Gas,	   	nil, 0,  4.,0, 10a,0d,  1h,8f,  2,0,  0, Bro, 001000001000000
+Cossack Regiment,	X1,  0,  2.,0,  5a,4d,  6h,2f, 10,0,  0, Chi, 000000000000000
+British Army,		Inv, 0,  1.,0,  6a,6d,  8h,2f,  6,0,  0, Wri, 000000001000000
+British Army,		X3,  0,  1.,0,  6a,7d,  8h,2f,  7,0,  0, Inv, 000000001000000
+Schutztruppe Afrika,	X2,  0,  1.,0,  5a,5d,  6h,2f,  5,0,  0, no,  000000001000000
+King´s African Rifles,	X3,  0,  1.,0,  5a,4d,  6h,2f,  5,0,  0, no,  000000001000000
+Greek Infantry,		nil, 0,  1.,0,  6a,6d,  8h,2f,  6,0,  1, no,  000000001000000
+Freight Ship,		nil, 2, 10.,0,  0a,3d,  3h,1f,  8,4,  4, Amp, 000000000000000
+Romanian Infantry,	X3,  0,  1.,0,  5a,5d,  8h,2f,  6,0,  0, no,  000000001000000
+Red Cavalry Regiment,  	nil, 0,  2.,0,  5a,4d,  6h,2f,  8,0,  0, no,  000000000000000
+not used, 	   	nil, 0,  0.,0,  1a,1d,  1h,1f,  1,0,  1, no,  000000000000000
+
+;
+; Note: the above 11 unit types (extra land, ship, air, and test units) are 
+; available for user defined unit types.  If these units are given prerequisites
+; other than "no" they will appear in the game when the specified
+; technology is reached.  Use if you want to create your own unit types
+; without sacrificing any of the predefined units.  Be sure to define
+; the "role" field accurately, so that the computer will understand how
+; to make use of the new units in its own civilizations.
+;
+; There is no requirement that the extra units be used to
+; create exactly one of each type; you could create three
+; ground units.  But the icons provided are for one of each.
+; The 11 extra unit types have default icons provided by the game.
+; To actually change the icons is a somewhat more difficult
+; task.  The icons are stored in "UNITS.GIF".
+;
+
+
+
+; Sound effects for these 11 units may be added by providing
+; CUSTOM1.WAV, CUSTOM2.WAV, and CUSTOM3.WAV for the extra units and
+: Extra1.wav through extra8.wav for the 8 test units.  These should be
+; 8-bit, mono, and sampled at 22050hz.
+;
+; Ideas:
+;
+; Hovercraft,   nil, 2,  8.,0,  0a,1d,  2h,2f,  7,1,  4, MP,  000000000000000
+
+;
+;  Terrain
+;
+;  Movecost, defense,   food, shields, trade,
+;        . . .  Irrigate, bonus, #turns, ai-irrigate,
+;        . . .  Mine,     bonus, #turns, ai-mine
+;        . . .  Transform
+;
+;   defense = multiply by 50% to get % of normal combat factor defended at.
+;       (so 3 x 50% = 150%, meaning a strength 2 unit defends at 3).
+;
+;  Irrigate/Mine = yes, no, or type of terrain changed to
+;  Transform     = Terrain type engineers can transform to
+;
+;  bonus = # extra production from that change
+;
+;  turns = # turns for settler to make change;
+;  ai    = Minimum govt level necessary for
+;          computer player to want to perform irrigate/mine
+;        0 Never
+;        1 Despotism
+;        2 Monarchy
+;        3 Communism
+;        4 Fascism
+;        5 Republic
+;        6 Democracy
+;
+@TERRAIN
+Desert,     3,2,  0,0,0,   no,  0, 0, 0,   no,  0, 0,  0,  no,    ; Drt
+Plains,     2,2,  1,1,0,   yes, 3, 1, 1,   yes, 4, 4,  0,  no,    ; Pln
+Grassland,  2,2,  2,1,0,   yes, 6, 1, 1,   yes, 4, 4,  0,  no,    ; Grs
+Forest,     4,3,  0,2,0,   no,  0, 0, 0,   no,  0, 0,  0,  no,    ; For
+Hills,      6,5,  0,2,0,   yes, 2, 1, 0,   yes, 6, 6,  0,  no,    ; Hil
+Mountains,  8,7,  0,0,0,   no,  0, 0, 0,   no,  0, 0,  0,  no,    ; Mou
+Urban,      2,2,  4,5,5,   no,  0, 0, 0,   no,  0, 0,  0,  no,    ; Tun
+Tundra,     3,2,  0,0,0,   no,  0, 0, 0,   no,  0, 0,  0,  no,    ; Gla
+Arable,     2,2,  6,1,1,   yes, 9, 3, 2,   yes, 0, 6,  3,  no,    ; Swa
+Jungle,     4,3,  0,0,0,   no,  0, 0, 0,   no,  0, 0,  0,  no,    ; Jun
+Ocean,      1,2,  1,0,2,   no,  0, 0, 0,   no,  0, 0,  0,  no,    ; Oce
+Dunes,      3,2,  0,0,0,
+Dairy Farm, 2,2,  9,3,1,
+Wind Mill,  2,2,  2,4,2,
+Village,    2,2,  1,3,3,
+Copper Mine,6,5,  0,8,4,
+Mountains,  8,7,  0,0,0,
+Urban,      2,2,  4,5,5,
+Tundra,     3,2,  0,0,0,
+Orchard,    2,2,  8,2,4,
+Jungle,     4,3,  0,0,0,
+Fish,       1,2,  2,1,2,
+Oasis,      3,2,  2,1,1,
+Wheat Farm, 2,2,  9,3,1,
+Estate,     2,2,  2,4,2,
+Village,    2,2,  1,3,3,
+Coal Mine,  6,5,  0,8,4,
+Mountains,  8,7,  0,0,0,
+Urban,      2,2,  4,5,5,
+Forest,     4,3,  0,2,0,
+Estate,     2,2,  2,4,2,
+Jungle,     4,3,  0,0,0,
+Fish,       1,2,  2,1,2,
+
+@GOVERNMENTS
+Anarchy,        General,           General
+Despotism,      General,           General
+Monarchy,       General,           General
+Dictature,      General,           General
+Monarchy,       Emperor,           Emperor
+Democracy,      Commander-in-Chief,Commander-in-Chief
+Democracy,      General,           General
+
+;
+;   Leaders
+;
+;   leader, female, color, style, plural, adjective, ...
+;           ...attack, expand, civilize, ...
+;           ...govt, male, female...<repeat>
+;
+;   female:     0 = male           1 = female
+;
+;   color:  Color set (1 - 7)
+;   style:  City style (0 - 3)
+;           0 = Bronze Age
+;           1 = Classical
+;           2 = Far East
+;           3 = Medieval
+;
+;   attack:     1 = aggressive    -1 = rational
+;   expand:     1 = expansionist  -1 = perfectionist
+;   civilize:   1 = civilized     -1 = militaristic
+;
+;   govt = government type for name replacement (0 = Anarchy, 6 = Democracy)
+;
+;   male, female = titles for leader of government
+;
+@LEADERS
+Nicholas II,	  None,      0, 1, 0, Russian Empire,	Russian,    1,  0, -1,     
+Franz Josef,	  None,      0, 2, 3, Austria-Hungary,	Austrian,  -1,  0, -1,     
+Wilhelm II,	  None,      0, 3, 3, German Empire,	German,     1,  0, -1,     
+Mohammad V,	  None,      0, 4, 1, Ottoman Empire,	Turkish,    0,  0, -1,     
+Woodrow Wilson,	  None,      0, 5, 3, United States,	American,   0, -1,  1,     
+Lloyd George,	  None,      0, 6, 3, Entente cordiale,	Allied,     1,  0,  0,     
+Giovanni Giolitti,None,      0, 7, 7, Italy,		Italian,    1,  0, -1,   
+Nicholas II,	  None,      0, 1, 0, Russian Empire,	Russian,    1,  0, -1,     
+Franz Josef,	  None,      0, 2, 3, Austria-Hungary,	Austrian,  -1,  0, -1,     
+Wilhelm II,	  None,      0, 3, 3, German Empire,	German,     1,  0, -1,     
+Mohammad V,	  None,      0, 4, 1, Ottoman Empire,	Turkish,    0,  0, -1,     
+Woodrow Wilson,	  None,      0, 5, 3, United States,	American,   0, -1,  1,     
+Lloyd George,	  None,      0, 6, 3, Entente cordiale,	Allied,     1,  0,  0,     
+Giovanni Giolitti,None,      0, 7, 7, Italy,		Italian,    1,  0, -1,   
+Nicholas II,	  None,      0, 1, 0, Russian Empire,	Russian,    1,  0, -1,     
+Franz Josef,	  None,      0, 2, 3, Austria-Hungary,	Austrian,  -1,  0, -1,     
+Wilhelm II,	  None,      0, 3, 3, German Empire,	German,     1,  0, -1,     
+Mohammad V,	  None,      0, 4, 1, Ottoman Empire,	Turkish,    0,  0, -1,     
+Woodrow Wilson,	  None,      0, 5, 3, United States,	American,   0, -1,  1,     
+Lloyd George,	  None,      0, 6, 3, Entente cordiale,	Allied,     1,  0,  0,     
+Giovanni Giolitti,None,      0, 7, 7, Italy,		Italian,    1,  0, -1,   
+
+Saladin,    ...,     0, 5, Arabs,       Arab,        1,  0,  1,     4, Ayatollah, Ayatollah, 2, Sultan, Sultana
+Atawallpa,  ...,     0, 1, Incas,       Inca,       -1,  1,  1,
+
+
+
+;
+;   Trading Commodities
+;
+@CARAVAN
+Livestock,
+Textiles,
+Wood,
+Ale,
+Steel,
+Concrete,
+Ammunition,
+Rations,
+Equipment,
+Tools,
+Medical Supplies,
+Chemicals,
+Spare Parts,
+Coal,
+Petrol,
+Aluminum,
+
+
+@ORDERS
+Fortify,            F
+Fortified,          F
+Sleep,              S
+Build Fortress,     F
+Build Road,         Z
+Build Irrigation,   I
+Build Industry,     m
+Transform,          O
+Clean Pollution,    p
+Build Airbase,      E
+Go to,              G
+
+
+@DIFFICULTY
+Corporal
+Sergeant
+Lieutenant
+Captain
+Colonel
+General
+
+
+@ATTITUDES
+Worshipful
+Enthusiastic
+Cordial
+Receptive
+Neutral
+Uncooperative
+Icy
+Hostile
+Enraged
+
+
+
+
+
+
+
