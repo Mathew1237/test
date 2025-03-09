@@ -1,0 +1,23 @@
+@SCENARIO
+@width=500
+@title=%STRING0
+^^Time: %STRING1 to %STRING2
+^
+^ SECOND WORLD WAR V1.0 by B.Stein
+^
+^Recommended: Soviet, Japanese, Germans, Allies
+^
+^Not designed to play: Neutrals, Chinese, Free French
+^
+^Changes: 
+^-no government change allowed
+^-no pollution
+^-no research, but technology events
+^-no negetion between enemies
+^
+^ If you find any mistakes or have ideas for improvments, send to:
+^ nstein@01019freenet.de
+^
+@end -- this line must be here!
+
+
