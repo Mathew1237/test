@@ -1,0 +1,985 @@
+@BEGINEVENTS
+
+@IF
+NOSCHISM
+defender=ANYBODY
+@THEN
+@ENDIF
+
+@IF
+SCENARIOLOADED
+@THEN
+PLAYWAVEFILE
+GUTTER.WAV
+@ENDIF
+
+@IF
+TURN
+turn=1
+@THEN
+TEXT
+On June 22nd 1941 Operation BARBAROSSA begins. Barbarossa was the code name for the
+German offensive against the Soviet Union. The invasion was originally called Fritz, then
+Directive 21. The final name given to it was Barbarossa because, in legend, Fredrick
+(Barbarossa) was supposedly going to rise from his sleep-like stage and restore Germany to
+power. Italy (60,000 men to Ukraine), Finland, and Romania also joined the German battle
+against the Soviet Union and declare war.
+ENDTEXT
+MAKEAGGRESSION
+who=Axis
+whom=Soviets
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Polikarpov I-16
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+The Luftwaffe (German Air Force) destroys over 2,000 Red Air Force aircraft in the hours days
+of the offensive, many still on the ground. The numerically strongest air force in the world is
+wiped out in 48 hours. The Commander of Russian Aviation, General Rychagov, is given the
+death sentence for "treasonable activity" (i.e. defeat.)
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Minsk
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+The Wehrmarcht captures Minsk, having advanced over 200 miles in a week. The Soviet 3rd,
+4th, and 10th armies are totally annihilated. A total of 15 Russian divisions are surrounded, and
+later surrender. Over 290,000 prisoners are taken as well as 2,585 tanks, 1,449 guns, and 246
+aircraft.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kijev
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Hitler's drive south nets the city of Kiev. It's defender, General Kirponos is killed, and the
+German army capture over 500,000 men, more then 750 tanks, and some 3,500 guns.  It has
+been a devastating invasion for Russia, but Germany is showing signs of slowing down.  Many
+weeks of hard advance under grueling conditions have taken their toll on the German tanks and
+try as they might, the advance is starting to slow down.
+
+"Grossaktion" in Kiev: Wehrmacht kills 52.000 men and women, 34.000 are jews.
+"Einsatzgruppen" im Osten kills ca. 1.000.000 people (September, October and November).
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Minsk
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Stalin calls for scorched earth policy in radio broadcast.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Smolensk
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Smolensk is taken, and another 300,000 Russian soldiers with it.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+TURN
+turn=2
+@THEN
+TEXT
+The German's are experiencing a new kind of warfare. The Russians seem content to trade 10
+Russian lives for 1 German. They continually mount reckless counter-attacks. These wasteful
+attacks have an unnerving effect on the Wehrmarcht.
+ENDTEXT
+@ENDIF
+
+@IF
+UNITKILLED
+unit=T-34/76
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Hitler is haunted by the ghost of Napoleon. He admits to Guderian, "had I known Russian tank
+strength...I would not have started this war."
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kharkov
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Kharkov falls to the Wehrmarcht, netting yet another Russian Army Group.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Novgorod
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+With their drive up the center halted, the Germans attempt to gain a way to Moscow from the
+North through Novgorod, and they so far have succeded!
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kijev
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+Russians recapture Kiev.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Rostov
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Paulus' 6th Army crosses the Don River and races for Stalingrad. Russian General Chuikov
+reinforces as fast as his railways allow.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Rostov
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Zhukov, Russia's only undefeated general, is now put in charge of the defenses of Stalingrad.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Moskva
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Army Group Center manages to capture Moscow! Although there is absolutely ferocious fighting
+to prevent the fall of the key city in Russia, the Wehrmacht proves to be much to difficult of an
+enemy to stop.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Odessa
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+The Black Sea port of Odessa falls to the advancing Germans under Von Rundstedt. The
+capture of this port poses a major threat to the Soviet economy and opens the coastal road to
+the fortified port of Sevastopol.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Sevastopol
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+German and Romanian troops capture Sevastopol, Russia after 8 month siege. General von
+Manstein is promoted to Field Marshal. The Germans have expended more han 46.000 shells
+and 20.000 tons of bombs against Sevastopol; the figure is marginally less than the total dropped
+on the UK during 1941. Fort of Maxim Gorkiy was reduced to rubble by the Germans massive
+assault, yet after it's destruction defenders emerged from the ruins and continued fighting. The
+loss of this port deprives the Soviet Black Sea fleet of it's home base.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Leningrad
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+After a long siege, the defenders of Leningrad, starving and without ammunition
+finally give up.  The Germans have reached one of their prime objectives:
+capturing the birthplace of the proletarian revolution and of the Soviet
+Communist Party. This terrible blow leaves the entire Soviet Union stunned...
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kursk
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+Operation CITADEL begins. At Kursk, the largest tank battle in history takes place. 2700
+German tanks and assault guns are arrayed against nearly 4000 Russian. It is greatest collection
+of Wehrmarcht power yet, and most German generals felt nothing could stop it. But they had
+given up their greatest asset, their one true advantage over the Red Army. Their strength was
+always in their ability to out manoeuver, not out slug, the Russian. This mistake would cost them
+dearly.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kursk
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+July 19. The Red Army begins a counter offensive at Kursk. From here on, the Russians slowly
+grind the Wehrmarcht under their feet, and relentlessly advance toward the German border, and
+victory.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Krakow
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+Krakow liberated. By the time the Soviet Army reached the Auschwitz/Birkenau concentration
+camp, millions had already been murdered there. When the Red Army finally gets there only a
+few thousand are still alive. The survivors were the people who were left behind when the Nazis
+fled to escape the approaching Soviets.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=London
+attacker=Axis
+defender=British Commonwealth
+@THEN
+TEXT
+Adolf Hitler's Germany has done the impossible to imagine, they have captured London. From
+July to October 1940, the English people suffered under the Battle of Britain: intense German
+bombing. But the Royal Air Force valiantly defended its homeland from the German Luftwaffe,
+and the Nazis were unable to crush British morale. The second attempt proved more succeful.
+Now the faith of the free world lies in the hands of the Americans...
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Capital Ship
+attacker=Axis
+defender=Americans
+@THEN
+TEXT
+A German U-boat, U-552 (Type VIIC, the "Red Devil" boat) commanded by Erich Topp,
+accidently sank the first WW II U.S. warship to be lost in war, the Navy destroyer Reuben
+James. Over 100 U.S. sailors were killed.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Capital Ship
+attacker=Japanese
+defender=British Commonwealth
+@THEN
+TEXT
+Japanese aircraft sink the British Royal Navy ships Prince of Wales and Repulse off the coast of
+Malaya.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Hong Kong
+attacker=Japanese
+defender=British Commonwealth
+@THEN
+TEXT
+British forces surrender Hong Kong to the Japanese.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Singapore
+attacker=Japanese
+defender=British Commonwealth
+@THEN
+TEXT
+Singapore (70.000 men British troops and General Perceival) surrender to the Japanese
+(General Yamashita).
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Rangoon
+attacker=Japanese
+defender=British Commonwealth
+@THEN
+TEXT
+British citizens and troops are evacuated from Rangoon, Burma. The electricity and generating
+plant at the Yenengyaung oil-fields, Burma, was 'scorched' by British engineers as Japanese
+forces closed in.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Midway
+attacker=Japanese
+defender=Americans
+@THEN
+TEXT
+The Battle of Midway. Begin of the 4-day air-naval battle of Midway. In this battle of planes;
+Japanese lost carriers "Akagi", "Kaga" , "Soryu" and "Hiryu", American lost carrier "Yorktown",
+sank by a Japanese submarine.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Sicilia
+attacker=ANYBODY
+defender=Axis
+@THEN
+TEXT
+Operation "Husky": Allied forces invade Sicily, Italy.
+This Operation was the greatest Airborne-Amphibious Operation of WWII; 3.000 ships and
+landing-craft with 160.000 men (8 Divisions), 14.000 vehicles, 600 tanks and 1800 guns. Army
+of occupations (As-troops): 315.000 Italians and 90.000 Germans.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Roma
+attacker=ANYBODY
+defender=Axis
+@THEN
+TEXT
+Polish troops hoist their red-white flag on the ruins of Monte Cassino.
+In 24 days hard fighting, impregnable Cassino fell, two German armies were defeated, 20,000
+prisoners were taken, three defence lined were smashed, and vast quantities of German material
+were destroyed. But Allied casualties in the four battles amounted to about 21,000 including
+4,100 killed in action.
+The historic Benedictine monastery at Cassino, Italy, which the Germans used as an observation
+post and artillery position, now stands demolished. The abbey fell to Allied troops after fierce
+and bitter fighting. German troops evacuate Monti Cassino, Italy.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Brest
+attacker=ANYBODY
+defender=Axis
+@THEN
+TEXT
+Allied forces launch the D-Day invasion of Normandy, France.
+Preparations for the invasion of Europe by the Allies involved enormous movements of men and
+equipment and considerable secrecy in order to conceal the exact timing and destination from the
+Germans. The men did not know until the last possible moment where and when they were
+going.
+ENDTEXT
+PLAYWAVEFILE
+EISENHOWER.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=5
+receiver=Axis
+@THEN
+TEXT
+V-1 named "Vergeltungswaffe". Germany launches its first V-1 rocket attack on England, till 20
+June 8000 V-1's fired to London.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Riga
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+Soviet forces reach the Baltic Sea west of Riga, Latvia.
+Ryti, the President of Finland resigns, he is replaced by Marshal Carl von Mannerheim.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+UNITKILLED
+unit=V-1 Fritz
+attacker=ANYBODY
+defender=ANYBODY
+@THEN
+TEXT
+Churchill declares: 4.735 men killed by V1's; more then 14.000 wounded; 17.000 houses
+destroyed and 800.000 damaged.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Paris
+attacker=ANYBODY
+defender=Axis
+@THEN
+TEXT
+Liberation of Paris by Free French, US, and British forces.General Jacques LeClerc accepts the
+German surrender (General von Cholitz).
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Brüssel
+attacker=British Commonwealth
+defender=Axis
+@THEN
+TEXT
+British forces, under Lieutenant General Sir Miles C. Dempsey, capture Brussels, Belgium.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Amsterdam
+attacker=ANYBODY
+defender=Axis
+@THEN
+TEXT
+Operation "Market Garden": Allied paratroops land inside the Netherlands, in the biggest
+airborne operation ever attempted.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=2
+receiver=Axis
+@THEN
+TEXT
+The Me 262 fighters, their first action are ineffective. They will eventually shoot down 25 Allied
+bombers, but their cumbersome take-off and landing, and the routing restrictions necessitated by
+their high fuel consumption, sees 35 of them lost.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Athen
+attacker=British Commonwealth
+defender=Axis
+@THEN
+TEXT
+British and Greek forces recapture Athens, Greece.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Königsberg
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+Soviet forces invade East Prussia.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Kirkenes
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+Russians invade Norway, take Kirkenes.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Paris
+attacker=Axis
+defender=ANYBODY
+@THEN
+TEXT
+German troops in the Ardennes forest launch a counteroffensive "The Battle of the Bulge", the
+operation is called : "Herbstnebel", last major attempt to turn back the Allied advance in the
+west.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Krakow
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+Red Army liberates Krakow and the concentration camp of Auschwitz. Here they find
+convincing evidence of SS atrocities of the Holocaust.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Iwo-Jima
+attacker=Americans
+defender=Japanese
+@THEN
+TEXT
+US Marines divisions land on Iwo Jima ( 20 km²). In the Pacific Iwo Jima is strategically and
+politically to both sides significant. The Americans need the island as a fighter base (Mustangs
+P-51 fighters) for their Japanese raids (B-29's) and a relief base for damaged bombers. On the
+first day some 30.000 marines getting ashore, the about 23.000 Japanese soldiers has prepared
+defences but allows the landing to take place before opening fire. Over the next two months
+6.281 US soldiers are killed (in the first 2 days, 4000 US soldiers died), and 21.865 are
+wounded in capturing the island from 23.000 defenders, 21.000 Japanese soldiers died.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Okinawa
+attacker=Americans
+defender=Japanese
+@THEN
+TEXT
+U.S. Army and Marines (10th USA Army and 4 divisions) invade Okinawa. Invasion Fleet:
+1300 ships and 100.000 men. Many "Kamikaze" attacks caused 5.000 dead USA marines.
+After fight 11.000 Japanese surrender and 110.000 were killed.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Istanbul
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+Turkey's neutrality violated. Agressor loose 200 gold due to loss of trade
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Vichy
+attacker=Axis
+defender=Vichy-French
+@THEN
+TEXT
+German troops occupy the rest of mainland France in order to secure its borders from foreign
+invasion. The occupying force loose 200 gold due to even more bureaucracy under its
+jurisdiction.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Barcelona
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+Spain's neutrality violated. Agressor loose 200 gold due to loss of trade.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Madrid
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+The capitol of Spain is secured. Franco and his army take to the hills and mountain around Spain
+to resume the fight for a nationalist Spain. Agressor loose 100 gold due to loss of trade.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-100
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Ankara
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+Turkey's neutrality violated. The agressor loose 200 gold due to loss of trade.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Zürich
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+Switzerland's neutrality violated. The agressor loose 200 gold due to loss of trade.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Stockholm
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+Sweden's neutrality violated. The agressor loose 200 gold due to loss of trade.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Teheran
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+Persia's neutrality violated. Riza Khan is forced to abdicate the Persian throne. The agressor
+loose 200 gold due to loss of trade.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Lisboa
+attacker=ANYBODY
+defender=Neutrals
+@THEN
+TEXT
+Portugal's neutrality violated. The agressor loose 200 due to loss of trade.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-200
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Suez Canal
+attacker=ANYBODY
+defender=ANYBODY
+@THEN
+TEXT
+By controlling the Suez Canal, you and your allies will be allowed to sail through. Only the owner
+of this strategical important canal, together with its allies, will be allowed to do so. The defender
+loose 500 gold by loosing it.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERDEFENDER
+amount=-500
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Panama Canal
+attacker=ANYBODY
+defender=ANYBODY
+@THEN
+TEXT
+By controlling the Panama Canal, you and your allies will be allowed to sail through. Only the
+owner of this strategical important canal, together with its allies, will be allowed to do so. The
+defender loose 500 gold by loosing it.
+ENDTEXT
+CHANGEMONEY
+receiver=TRIGGERDEFENDER
+amount=-500
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Hanoi
+attacker=Japanese
+defender=Vichy-French
+@THEN
+TEXT
+The Japanese occupy French Indo-China with the consent of the Vichy French Government.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Manila
+attacker=Japanese
+defender=Americans
+@THEN
+TEXT
+Japanese troops enter Manila, The Philippines, the Americans withdraw to the peninsula of
+Bataan.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Frankfurt
+attacker=ANYBODY
+defender=Axis
+@THEN
+TEXT
+Operation Varsity, the airborne support for the 9th US and 2th British Armies' crossing of the
+Rhein.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Berlin
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+Soviet forces capture Berlin, Germany. German forces (General Weidling) in Berlin surrender to
+the Red Army (General Tsjoeikow).
+ENDTEXT
+PLAYWAVEFILE
+SURRENDER.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+RECEIVEDTECHNOLOGY
+technology=58
+receiver=ANYBODY
+@THEN
+TEXT
+The first atomic device is exploded.
+ENDTEXT
+PLAYWAVEFILE
+ATOMBOMB.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+UNITKILLED
+unit=Atomic Bomb
+attacker=ANYBODY
+defender=ANYBODY
+@THEN
+TEXT
+The world's first atomic bomb (Uranium), Little Boy, is dropped. One minute after the explosion
+66.000 were killed and 69.000 wounded.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Alexandria
+attacker=Axis
+defender=British Commonwealth
+@THEN
+TEXT
+Erwin Rommel, "The Desert Fox", has succeded in capturing British-held Egypt! The road to the
+Suez Canal, and more importantly, Syrian Oil, is wide open.
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Stalingrad
+attacker=Axis
+defender=Soviets
+@THEN
+TEXT
+At Stalingrad, the Wehrmarcht had met its match. The soldiers had an uneasy feeling they were
+fighting men of nearly superhuman strength and resilience. The wounded Russian rarely cried out.
+Hoffman, a German officer, confided to his diary that Russian's displayed an "insane
+stubbornness." He said they are, "fanatics...wild beasts...not men, but some kind of cast iron
+creatures; they never get tired and are not afraid of fire."
+ENDTEXT
+JUSTONCE
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Stalingrad
+attacker=Soviets
+defender=Axis
+@THEN
+TEXT
+The German 6th Army is encircled by the Russians.
+ENDTEXT
+PLAYWAVEFILE
+TOTALKRIEG.WAV
+JUSTONCE
+@ENDIF
+
+@IF
+UNITKILLED
+unit=US Division
+attacker=Japanese
+defender=Americans
+@THEN
+PLAYWAVEFILE
+INFAMY.WAV
+@ENDIF
+
+@IF
+TURN
+turn=3
+@THEN
+TEXT
+A new Soviet tank is spotted on the battlefield and all the German's shells simply bounce off of
+it's armour!
+ENDTEXT
+GIVETECHNOLOGY
+receiver=Soviets
+technology=72
+@ENDIF
+
+@IF
+TURN
+turn=3
+@THEN
+CREATEUNIT
+unit=T-34/76
+owner=Soviets
+veteran=yes
+homecity=NONE
+locations
+158,36
+endlocations
+@ENDIF
+
+@IF
+TURN
+turn=3
+@THEN
+CREATEUNIT
+unit=T-34/76
+owner=Soviets
+veteran=yes
+homecity=NONE
+locations
+158,36
+endlocations
+@ENDIF
+
+@IF
+CITYTAKEN
+city=Benghazi
+attacker=Axis
+defender=British Commonwealth
+@THEN
+CHANGEMONEY
+receiver=TRIGGERATTACKER
+amount=-2340
+@ENDIF
+
+@ENDEVENTS

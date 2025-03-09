@@ -1,0 +1,105 @@
+@SCENARIO
+@width=500
+@title=BLITZKRIEG - AWAKENING THE GIANT! (June 1941)
+World War II was the largest conflict in the history of mankind.  The war was fought over millions of square miles on the ground, in the air, on and under the sea, and with the development of the German V-2 missile, at the very fringes of outer space. Men and women fought in the streets of the great cities of Europe, the arctic wastelands of Finland, the unexplored jungles of Southeast Asia, the brutal deserts of Africa, the towering peaks of the Himalayas.  Not even the United States, protected by two vast oceans was secure.  German U-Boats sunk hundreds of ships within sight of the U.S. and Canadian coasts and the Japanese managed to gain a temporary foothold in the Aleutian Islands of Alaska.  People from nearly every nation on earth served in some capacity, as soldiers, sailors, relief workers, medics or nurses.  For five years, the vast majority of the worlds’ industrial capacity was used to make the implements of war. 
+@listbox7
+@options
+PLAYABLE NATIONS (in playing order):
+%
+JAPAN - Japan saw the outbreak of the war in Europe as
+an oppertunity in the pacific. While British, French
+and Dutch attentions were occupied elsewhere, the 
+Japanese might be able to harvest the rich resourses
+of the colonial empires of South East Asia. Only the
+Industrial might of America stands in the way of
+such ambitions...
+_________________________________________
+%
+GERMANY - After the Blitzkrieg successes in Poland,
+Denmark, Norway, the Low Countries, France,
+Yugoslavia, Greece and Northern Africa, Hitler
+turnes his attention eastwards to the USSR,
+the natural target for his dreams of 
+pan-European 'Lebensraum'. But will the awakening
+of the Russian Bear succeed?
+_________________________________________
+%
+USA - Two decades of isolationism had confirmed the 
+population's broad belief that British, French and 
+German events were none of their affair: and even the
+shocking Nazi success in the summer of 1940 only stirred
+a minority into demanding more aid for the democratic
+West. Will USA stay completely neutral in the destuctive 
+war? How will USA react to future Japanese expansion? 
+_________________________________________
+%
+BRITISH COMMONWEALTH - After the shocking defeat of 
+France in 1940, Britain found itself alone against
+Nazi-Germany, facing the possibility of imminent 
+invasion. However, a heroic air defence that summer
+forestalled Hitler's 'Operation Sealion' attack, and
+by spring of 1941 German attentions had switched east.
+_________________________________________
+%
+NATIONALIST CHINA - Nationalist China faces a severe
+challenge in this game: An increasingly beliggerent and
+imperialist Japan desires to expand it's resource base 
+at China's expense. Having already conceded control of
+Manchuria to the Japanese in 1931, China seems destined
+for further clashes with the island nation. Will they
+then continue to fight, or will China be humiliatad again?
+_________________________________________
+%
+USSR - When Molotov brokered his surprise deal with
+his German counterpart, von Ribbentrop, in the summer
+of 1939, few observers expected the unnatural 
+parthership to last. Will the Stalinist Russia survive
+a possible German Blitzkrieg invasion?
+_________________________________________
+%
+NON-PLAYABLE NATIONS:
+%
+NEUTRALS - Neutral Nations
+%
+SINKIANG - Independant and neutral part of China
+%
+%
+HOUSE RULES:
+- Only the owner of Suez, tohether with her allies, can 
+  cross the Suez Canal.
+- Only the owner of Panama City, together with her allies,
+  can cross the Panama Canal.
+- Only the owner of Istanbul, together with her allies, can
+  sail between the Mediteranean and the Black Sea.
+- Only dive-bombers and fighters can land on Carriers.
+- Subs can not carry V-1 missiles or atomic bombs.
+- No airlifting between cities.
+%
+- As the Axis Powers you win the war if you and your ally 
+  manage to capture twree enemy capitols, and holding them for 
+  one turn. (Moskva, London, Washington)
+- As one of  the Allies you win the war if you and your allies 
+  manage to capture two enemy capitols, and holding them for one 
+  turn (Berlin and Tokyo). You will also have to liberate at least 
+  two occupied friendly capitols (Oslo, Paris, Athen, Tirana, 
+  Wazawa, Nanking). If you capture Roma you will only have to
+  liberate one friendly occupied capitol. 
+%
+%
+SPECIAL RULES:
+- No Pollution 
+- No Government Switching 
+- No techs from conquest
+- It costs money (by events) to capture most of the neutral 
+  cities. This to simulate the loss of a trading partner.
+%
+%
+Feel free to contact me if you wonder about anything:
+eivindae@online.no or
+evva@online.no or
+eivindae@yahoo.no
+%
+See readme file for more info and deeper understanding. 
+%
+Have fun!
+@end -- this line must be here!

@@ -1,0 +1,33 @@
+Changes from v1.9:
+* Fixed the "Benghazi problem".
+* Added "Tank Fortification (City Walls)" in Rostov, Smolensk, Vladivostok and Nanchang.
+* Removed fortifications in Britain.
+* Increased the Red Airforce
+* Gave the Chineese some more inf. divisions.
+
+
+Changes from earlier versions:
+
+* Removed all Tank Defenses and raised the cost of them. This is to make better use of the tanks. Only China have Tank Defenses in most of their cities.
+* Nearly all tanks have better attacks.
+* Raised the attack of inf. divisions.
+* Removed the KV-1. Instead the Soviets have a new and cheaper tank. Simply called Light Tank. They have more tanks due to this since the attack is slithlty reduced. The Chinese have the same tank and have a few from start.
+* Improved the defense in some Russian cities.
+* Slightly increased the Red Airforce.
+* Strengtened the defense of China.
+* Japan got two more inf. divisions.
+* Knocked out Okhotsk and created Magedan in Soviet Far East.
+* Minor changes on the infrastructure here and there
+* Reduced the amount of trade recived from oil field and industrial areas.
+* Removed the 'Smolensk event'.
+* Now each turn is two weeks.
+* Submarine stat changed around so that it is less good but much cheaper.
+
+
+
+
+
+Enjoy yourself!
+
+
+-Eivind-
